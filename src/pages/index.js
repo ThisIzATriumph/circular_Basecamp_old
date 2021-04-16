@@ -44,7 +44,7 @@ const Hero = () => {
             }
           `}
         >
-          Maggie Appleton
+          Circular Basecamp
         </h1>
         <h2
           css={css`
@@ -59,7 +59,8 @@ const Hero = () => {
               line-height: ${rhythm(1.1)};
           `}
         >
-          Creates visual explanations of technology, anthropology, and programming.
+          Creates visual explanations of technology, anthropology, and
+          programming.
         </h2>
         <h4
           css={css`
@@ -89,7 +90,7 @@ const Hero = () => {
   )
 }
 
-const SmallSectionLink = props => {
+const SmallSectionLink = (props) => {
   const theme = useTheme()
   return (
     <Link
@@ -115,7 +116,7 @@ const SmallSectionLink = props => {
   )
 }
 
-const TitleSectionLink = props => {
+const TitleSectionLink = (props) => {
   const theme = useTheme()
   return (
     <Link
@@ -291,7 +292,7 @@ export default function Index({
                         margin-bottom: 0;
                         &:hover {
                           color: ${theme.colors.black};
-                        };
+                        }
                       }
                       div.metadata {
                         display: flex;
