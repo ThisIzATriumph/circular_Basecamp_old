@@ -37,7 +37,7 @@ const Hero = () => {
             font-size: ${rhythm(2.5)};
             line-height: ${rhythm(2.4)};
             margin-top: 3vw;
-            max-width: ${rhythm(22)};
+            max-width: ${rhythm(32)};
             ${bpMaxSM} {
               font-size: ${rhythm(1.8)};
               line-height: ${rhythm(2.1)};

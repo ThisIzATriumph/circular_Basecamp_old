@@ -1,0 +1,91 @@
+{
+  "main": {
+    "id": "04f123c563418891",
+    "type": "split",
+    "children": [
+      {
+        "id": "8ba302e7b557c0a2",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "_private/_template/template.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "85c7e20f35dc49f3",
+    "type": "split",
+    "children": [
+      {
+        "id": "ce4cad5ac6257f32",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8b09016fc3f0a1dc",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "9faed6af7cffd0de",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "edf2a0e6db5cbcd9",
+    "type": "split",
+    "children": [
+      {
+        "id": "7ba69c81e5751327",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4b29971f89819b7b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "_private/_template/template.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "_private/_template/template.md"
+  ]
+}

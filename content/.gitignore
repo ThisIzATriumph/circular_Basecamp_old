@@ -1,0 +1,5 @@
+# Obsidian Files
+/content/.obsidian
+/content/_private
+# Optional custom CSS
+obsidian.css
