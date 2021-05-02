@@ -30,3 +30,9 @@ node_modules
 .cache/
 .DS_Store
 public
+
+# Obsidian Files
+/content/.obsidian/
+/content/_private/
+# Optional custom CSS
+obsidian.css

@@ -53,14 +53,14 @@ const Hero = () => {
             font-weight: 200;
             font-size: ${rhythm(1.3)};
             line-height: ${rhythm(1.7)};
-            max-width: ${rhythm(26)};
+            max-width: ${rhythm(30)};
             ${bpMaxSM} {
               font-size: ${rhythm(0.9)};
               line-height: ${rhythm(1.1)};
           `}
         >
-          Creates visual explanations of technology, anthropology, and
-          programming.
+          Gear up Circular Designers for their walk towards the peaks of
+          Circular Economy.
         </h2>
         <h4
           css={css`
@@ -76,13 +76,13 @@ const Hero = () => {
             }
           `}
         >
-          Art Director, Designer & Anthropological All-Rounder at{' '}
+          By @Basendo, Circular Design Engineer & avid All-Rounder at{' '}
           <a
-            href="https://egghead.io"
+            href="https://vanberloagency.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            egghead.io
+            vanberloagency.com
           </a>
         </h4>
       </Container>

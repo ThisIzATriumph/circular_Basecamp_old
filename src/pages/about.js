@@ -4,16 +4,13 @@ import Img from 'gatsby-image'
 import Container from 'components/Container'
 import { useStaticQuery, graphql } from 'gatsby'
 import { css } from '@emotion/core'
-import { bpMaxSM, bpMaxMD  } from '../lib/breakpoints'
+import { bpMaxSM, bpMaxMD } from '../lib/breakpoints'
 import { Link } from 'gatsby'
 import { useTheme } from 'components/Theming'
-import {
-  podcastData,
-  talksData,
-} from '../../static/aboutPageData'
+import { podcastData, talksData } from '../../static/aboutPageData'
 
 const AboutPage = () => {
-const theme = useTheme()
+  const theme = useTheme()
 
   const data = useStaticQuery(graphql`
     query AboutPageQuery {
@@ -139,16 +136,13 @@ const theme = useTheme()
         `}
       >
         <div className="header">
-        <div className="headerText">
+          <div className="headerText">
             <h1>Maggie Appleton</h1>
-            <h2>
-             Designer, anthropologist, and
-              mediocre developer
-            </h2>
+            <h2>Designer, anthropologist, and mediocre developer</h2>
             <p>
-              I sit at the intersection of design,
-              anthropology, and technology. These three are at the core of everything I make. Combining them into a coherent career is a weird and ongoing
-              challenge.
+              I sit at the intersection of design, anthropology, and technology.
+              These three are at the core of everything I make. Combining them
+              into a coherent career is a weird and ongoing challenge.
             </p>
             <p>
               My work at{' '}
@@ -158,8 +152,8 @@ const theme = useTheme()
                 rel="noopener noreferrer"
               >
                 egghead
-              </a>
-              {' '}involves designing visual metaphors for invisible, complicated
+              </a>{' '}
+              involves designing visual metaphors for invisible, complicated
               software concepts.
             </p>
             <p>
@@ -176,50 +170,63 @@ const theme = useTheme()
           </div>
           <div>
             <Img
-            imgStyle={{
-              objectFit: 'contain',
-              objectPosition: 'top center',
-            }}
-            fluid={data.profilePic.childImageSharp.fluid}
-          />
+              imgStyle={{
+                objectFit: 'contain',
+                objectPosition: 'top center',
+              }}
+              fluid={data.profilePic.childImageSharp.fluid}
+            />
           </div>
-          </div>
+        </div>
 
-          <section className="talksPodcasts">
+        <section className="talksPodcasts">
+          <div>
+            <h3>Talks</h3>
+            {talksData.map((d, i) => {
+              return (
+                <div className="podtalkItem">
+                  <a href={d.url}>
+                    <p>{d.talkTitle}</p>
+                  </a>
+                  <h5>{d.conference}</h5>
+                  <h5 className="date">{d.date}</h5>
+                </div>
+              )
+            })}
+          </div>
 
           <div>
-              <h3>Talks</h3>
-          {talksData.map((d, i) => {
-            return (
-              <div className="podtalkItem">
-                <a href={d.url}><p>{d.talkTitle}</p></a>
-                <h5>{d.conference}</h5>
-                <h5 className="date">{d.date}</h5>
-              </div>
-            )
-          })}
-            </div>
-
-            <div>
-              <h3>Podcast Chats</h3>
-          {podcastData.map((d, i) => {
-            return (
-              <div className="podtalkItem">
-                <a href={d.url}><p>{d.episodeName}</p></a>
-                <h5>{d.podcastName}</h5>
-                <h5 className="date">{d.date}</h5>
-              </div>
-            )
-          })}
-            </div>
-
-          <div>
-          <a href='/faq'><div className="faqBlock"><h2>Have questions?<br />I have an FAQ</h2></div></a>
-            <a href='/resources'><div className="faqBlock"><h2>Want to improve your illustration skills?</h2><h4>I have a recommended resources page</h4></div></a>
+            <h3>Podcast Chats</h3>
+            {podcastData.map((d, i) => {
+              return (
+                <div className="podtalkItem">
+                  <a href={d.url}>
+                    <p>{d.episodeName}</p>
+                  </a>
+                  <h5>{d.podcastName}</h5>
+                  <h5 className="date">{d.date}</h5>
+                </div>
+              )
+            })}
           </div>
 
-          </section>
-          
+          <div>
+            <a href="/faq">
+              <div className="faqBlock">
+                <h2>
+                  Have questions?
+                  <br />I have an FAQ
+                </h2>
+              </div>
+            </a>
+            <a href="/resources">
+              <div className="faqBlock">
+                <h2>Want to improve your illustration skills?</h2>
+                <h4>I have a recommended resources page</h4>
+              </div>
+            </a>
+          </div>
+        </section>
       </Container>
     </Layout>
   )

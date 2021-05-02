@@ -6,11 +6,10 @@
       {
         "id": "8ba302e7b557c0a2",
         "type": "leaf",
-        "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "_private/_template/template.md",
+            "file": "_private/Obsidian -Vaults/PARA For notes/2. Areas (Seeding Evergreen)/Productivity/Thought refining process.md",
             "mode": "source"
           }
         }
@@ -69,10 +68,12 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_private/_template/template.md",
+                "file": "_private/Obsidian -Vaults/PARA For notes/2. Areas (Seeding Evergreen)/Productivity/Thought refining process.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -85,7 +86,17 @@
     "width": 300,
     "collapsed": true
   },
+  "active": "8ba302e7b557c0a2",
   "lastOpenFiles": [
+    "_private/Obsidian -Vaults/PARA For notes/2. Areas (Seeding Evergreen)/Productivity/Thought refining process.md",
+    "_private/Obsidian -Vaults/PARA For notes/2. Areas (Seeding Evergreen)/Productivity/Slow burning tasks.md",
+    "_private/Obsidian -Vaults/PARA For notes/2. Areas (Seeding Evergreen)/Circular design Lab.md",
+    "_private/Obsidian -Vaults/PARA For notes/1. Projects/Horizon 2023.md",
+    "Circular design Lab.md",
+    "_private/Obsidian -Vaults/PARA For notes/1. Projects/Habits making for the freelancer.md",
+    "_private/Obsidian -Vaults/Entries/Ongoing note on productivity.md",
+    "_private/Obsidian -Vaults/Entries/Ideas on Chara Design.md",
+    "_private/Obsidian -Vaults/Entries/Apprendre à manger.md",
     "_private/_template/template.md"
   ]
 }
