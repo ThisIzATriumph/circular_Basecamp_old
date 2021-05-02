@@ -23,9 +23,9 @@ module.exports = {
   backgroundColor: '#FFFDFD',
 
   // Social component
-  twitter: 'https://twitter.com/senebapt/',
+  twitter: 'https://twitter.com/_basendo/',
   twitterHandle: '@_basendo',
-  github: 'https://github.com/thiisizatriumph/',
-  dribbble: 'https://dribbble.com/thisizatriumph',
+  github: 'https://github.com/thisizatriumph/',
+  dribbble: 'https://dribbble.com/ThisIzATriumph',
   instagram: 'https://www.instagram.com/circular_basecamp/',
 }
