@@ -75,7 +75,6 @@ const AboutPage = () => {
             }
             }
           }
-
           .talksPodcasts {
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
@@ -84,14 +83,12 @@ const AboutPage = () => {
               grid-gap: 1rem;
             }
             grid-gap: 3rem;
-
             p {
               margin: 0;
               padding: 0;
               font-size: 20px;
               line-height: 26px;
             }
-
             .podtalkItem {
               padding-bottom: 0.8rem;
               border-bottom: 1px solid #D6E0EB;
@@ -105,7 +102,6 @@ const AboutPage = () => {
                 opacity: 70%;
               }
             }
-
             .faqBlock {
               text-align: center;
               border: 1px solid ${theme.colors.lightGrey};
@@ -131,41 +127,44 @@ const AboutPage = () => {
                 color: ${theme.colors.black};
                 }
               }
-
           }
         `}
       >
         <div className="header">
           <div className="headerText">
-            <h1>Maggie Appleton</h1>
-            <h2>Designer, anthropologist, and mediocre developer</h2>
+            <h1>Baptiste Sene</h1>
+            <h2>
+              Circular economy cartographer, Design Engineer, and apprentice
+              storyteller.
+            </h2>
             <p>
-              I sit at the intersection of design, anthropology, and technology.
-              These three are at the core of everything I make. Combining them
-              into a coherent career is a weird and ongoing challenge.
+              I sit at the intersection of design, engineering, and
+              storytelling. These three are at the core of everything I make.
+              Combining them into a coherent career is a weird and ongoing
+              challenge.
             </p>
             <p>
               My work at{' '}
               <a
-                href="https://egghead.io/"
+                href="https://vanberloagency.com/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                egghead
+                VanBerlo agency
               </a>{' '}
-              involves designing visual metaphors for invisible, complicated
-              software concepts.
+              involves designing products & stories as artifacts & tools for the
+              transition towards Circular scenarios.
             </p>
             <p>
               On the side I'm always working on{' '}
               <Link to="/essays">illustrated essays</Link> that explore the
-              cultural side of digital technology.
+              deeper practice of Sustainable & Circular design.
             </p>
             <p>
               In my
               <Link to="/garden"> digital garden of notes</Link> you'll find a
-              good amount of linguistics, cognitive metaphors, cultural
-              speculation, and tool nerding.
+              mangrove of thoughts about the Circular Economy Design & the ways
+              we learn.
             </p>
           </div>
           <div>
