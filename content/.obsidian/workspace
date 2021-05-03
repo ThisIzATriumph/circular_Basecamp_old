@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "_private/Concept Engineer.md",
+            "file": "notes/artisan-data.mdx",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_private/Concept Engineer.md",
+                "file": "notes/artisan-data.mdx",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_private/Concept Engineer.md"
+                "file": "notes/artisan-data.mdx"
               }
             }
           }
@@ -117,15 +117,15 @@
   },
   "active": "00009208cead98eb",
   "lastOpenFiles": [
-    "_private/Concept Engineer.md",
-    "notes/now-page-archive/now-aug10.mdx",
+    "notes/artisan-data.mdx",
+    "notes/Anti-fragile circularity.mdx",
+    "notes/bidirectionals.mdx",
+    "notes/babel.mdx",
     "notes/apps.mdx",
-    "notes/Anti-fragile circularity.md",
-    "Obsidian -Vaults/0. Notes in progress/Becoming systems dancers.md",
-    "_template/template.md",
-    "Obsidian -Vaults/0. Notes in progress/Anti-fragile circularity.md",
-    "Obsidian -Vaults/3. Resources/Mappleton/box-mistakes.md",
-    "Obsidian -Vaults/3. Resources/Mappleton/solid.md",
-    "Obsidian -Vaults/3. Resources/Mappleton/scrolly-patterns.md"
+    "_private/Obsidian -Vaults/0. Notes in progress/Becoming systems dancers 1.md",
+    "_private/Obsidian -Vaults/0. Notes in progress/Becoming systems dancers.md",
+    "Untitled.md",
+    "_private/Concept Engineer.md",
+    "notes/now-page-archive/now-aug10.mdx"
   ]
 }
