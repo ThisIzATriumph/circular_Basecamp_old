@@ -1,0 +1,14 @@
+---
+title: 'Antifragile Circularity'
+slug: antifragile
+startupdated: 2021-04-26
+updated: 2021-04-26
+published: true
+type: ['note']
+topics: ['Systems', 'Illustrated Notes', 'Circular Economy']
+growthStage: 'Budding'
+---
+
+# The anti-fragile circularity
+
+Constructing systems that can get better with shocks. Your product or service must learn from its experiences via piloting.
