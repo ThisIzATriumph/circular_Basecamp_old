@@ -17,13 +17,7 @@ Being humans, we rarely learn things linearly. No one begins their JavaScript jo
 
 </IntroParagraph>
 
-Instead we all cobble together a good-enough understanding, leaving holes here and there to fill in later.
-
-So far I've stumbled along without 100% grokking prototypical inheritance, or how `call, apply,` and `bind` work on functions.
-
-It's fine. Stuff mostly works. Until it doesn't ¯\_(ツ)\_/¯
-
-But at some point, it's useful to stop stumbling about and peek back at those holes.
+This is a mega test
 
 <a noTip href="https://egghead.io/courses/advanced-javascript-foundations"><ImageFrame width="90%" alt="Course illustration of a building with a bright yellow foundation floor for advanced javascript foundations" src="https://og-image-egghead-course.now.sh/advanced-javascript-foundations" /></a>
 
