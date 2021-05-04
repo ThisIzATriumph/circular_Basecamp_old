@@ -17,7 +17,7 @@ Being humans, we rarely learn things linearly. No one begins their JavaScript jo
 
 </IntroParagraph>
 
-This is a mega test
+This is a mega test [[new_template]]
 
 <a noTip href="https://egghead.io/courses/advanced-javascript-foundations"><ImageFrame width="90%" alt="Course illustration of a building with a bright yellow foundation floor for advanced javascript foundations" src="https://og-image-egghead-course.now.sh/advanced-javascript-foundations" /></a>
 
