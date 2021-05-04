@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "notes/Everyone is a circular designer.md",
+            "file": "notes/Anti-fragile circularity.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/Everyone is a circular designer.md",
+                "file": "notes/Anti-fragile circularity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/Everyone is a circular designer.md"
+                "file": "notes/Anti-fragile circularity.md"
               }
             }
           }
@@ -117,6 +117,7 @@
   },
   "active": "00009208cead98eb",
   "lastOpenFiles": [
+    "notes/Anti-fragile circularity.md",
     "notes/Everyone is a circular designer.md",
     "notes/circulareconomy.md",
     "notes/template.md",
@@ -125,7 +126,6 @@
     "notes/Circular Economy.md",
     "notes/Anti-fragile circularity.mdx",
     "Circular Economy.md",
-    "notes/artisan-data.mdx",
-    "notes/babel.mdx"
+    "notes/artisan-data.mdx"
   ]
 }
