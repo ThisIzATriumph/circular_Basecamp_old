@@ -90,7 +90,8 @@ class SignUp extends React.Component {
                 Join the newsletter
               </h3>
               <p style={{ maxWidth: '800px', margin: '0.2em 0 1em' }}>
-                For weekly notes on visual thinking, ethical technology, and cultural anthropology.
+                For weekly notes on visual thinking, ethical technology, and
+                cultural anthropology.
               </p>
             </>
           )}
@@ -167,7 +168,7 @@ class SignUp extends React.Component {
                       aria-label="your first name"
                       aria-required="false"
                       name="first_name"
-                      placeholder="Margaret Mead"
+                      placeholder="Donella Meadows"
                       type="text"
                     />
                   </label>
@@ -195,7 +196,7 @@ class SignUp extends React.Component {
                       aria-label="your email address"
                       aria-required="true"
                       name="email_address"
-                      placeholder="mead@semiotics.com"
+                      placeholder="donella@systems.com"
                       type="email"
                     />
                   </label>
