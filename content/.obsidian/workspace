@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "notes/bidirectionals.mdx",
+            "file": "notes/Everyone is a circular designer.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/bidirectionals.mdx",
+                "file": "notes/Everyone is a circular designer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/bidirectionals.mdx"
+                "file": "notes/Everyone is a circular designer.md"
               }
             }
           }
@@ -117,15 +117,15 @@
   },
   "active": "00009208cead98eb",
   "lastOpenFiles": [
+    "notes/Everyone is a circular designer.md",
+    "notes/circulareconomy.md",
+    "notes/template.md",
+    "Everyone is a circular designer.md",
     "notes/bidirectionals.mdx",
     "notes/Circular Economy.md",
     "notes/Anti-fragile circularity.mdx",
     "Circular Economy.md",
     "notes/artisan-data.mdx",
-    "notes/babel.mdx",
-    "notes/apps.mdx",
-    "_private/Obsidian -Vaults/0. Notes in progress/Becoming systems dancers 1.md",
-    "_private/Obsidian -Vaults/0. Notes in progress/Becoming systems dancers.md",
-    "Untitled.md"
+    "notes/babel.mdx"
   ]
 }
