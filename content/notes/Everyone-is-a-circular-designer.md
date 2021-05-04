@@ -9,13 +9,15 @@ topics: ['Circular Economy', 'Systems thinking', 'Systems Design']
 growthStage: 'Seedling'
 ---
 
-Link to the talk of Tim Brown about it. 
+Link to the talk of Tim Brown about it.
 
-### Buzzword Design 
+### Buzzword Design
 
-How do we define design? 
-Funny to see that what's behind design is influenced by your culture. 
+How do we define design?
+Funny to see that what's behind design is influenced by your culture.
 
-#### Design in France 
-#### Design in The Netherlands 
-#### Design in Anglo-Saxon countries 
+#### Design in France
+
+#### Design in The Netherlands
+
+#### Design in Anglo-Saxon countries
