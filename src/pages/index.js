@@ -76,7 +76,7 @@ const Hero = () => {
             }
           `}
         >
-          Baptiste Sene, Circular Design Engineer at{' '}
+          Baptiste Sené, Circular Design Engineer at{' '}
           <a
             href="https://vanberloagency.com"
             target="_blank"
