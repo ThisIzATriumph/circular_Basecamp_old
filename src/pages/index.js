@@ -59,8 +59,8 @@ const Hero = () => {
               line-height: ${rhythm(1.1)};
           `}
         >
-          Gear up Circular Designers for their walk towards the peaks of
-          Circular Economy.
+          Crowdlearning the Circular Economy through practice & visual
+          explanations.
         </h2>
         <h4
           css={css`
@@ -76,7 +76,7 @@ const Hero = () => {
             }
           `}
         >
-          By @Basendo, Circular Design Engineer & avid All-Rounder at{' '}
+          Baptiste Sene, Circular Design Engineer at{' '}
           <a
             href="https://vanberloagency.com"
             target="_blank"
@@ -90,7 +90,7 @@ const Hero = () => {
   )
 }
 
-const SmallSectionLink = (props) => {
+const SmallSectionLink = props => {
   const theme = useTheme()
   return (
     <Link
@@ -116,7 +116,7 @@ const SmallSectionLink = (props) => {
   )
 }
 
-const TitleSectionLink = (props) => {
+const TitleSectionLink = props => {
   const theme = useTheme()
   return (
     <Link
