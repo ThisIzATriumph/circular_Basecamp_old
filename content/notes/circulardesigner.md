@@ -1,7 +1,7 @@
 ---
-title: 'Everyone is a circular designer'
-slug: everyoneiscirculardesigner
-startupdated: 2021-05-02
+title: 'Everyone is a Circular Designer'
+slug: circulardesigner
+startupdated: 2021-05-04
 updated: 2021-05-04
 published: true
 type: ['note']
@@ -11,13 +11,13 @@ growthStage: 'Seedling'
 
 Link to the talk of Tim Brown about it.
 
-### Buzzword Design
+## Buzzword Design
 
 How do we define design?
 Funny to see that what's behind design is influenced by your culture.
 
-#### Design in France
+### Design in France
 
-#### Design in The Netherlands
+### Design in The Netherlands
 
-#### Design in Anglo-Saxon countries
+### Design in Anglo-Saxon countries
