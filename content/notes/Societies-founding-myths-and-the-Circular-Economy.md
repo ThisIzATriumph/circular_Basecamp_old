@@ -9,11 +9,11 @@ topics: ['Anthropology']
 growthStage: 'Seedling'
 ---
 
-## Societies are build upon common myths (Harari)
+### Societies are build upon common myths (Harari)
 
-### L’Arbre de la Connaissance
+#### L’Arbre de la Connaissance
 
-#### Extrait résumé de SAPIENS de Yuval Noah HARARI p 31
+##### Extrait résumé de SAPIENS de Yuval Noah HARARI p 31
 
 _Harari, dans son livre SAPIENS donne, de la création de nos sociétés, une explication fondée sur la capacité d’abstraction de la race Sapiens, capacité qui lui a permis de supplanter toutes les autres races. Son explication mérite qu’on s’y arrête car elle structure toutes nos sociétés actuelles._
 
@@ -49,5 +49,5 @@ En revanche, depuis la Révolution cognitive, Sapiens a toujours pu changer de c
 
 ‘’ _Ce qui ne veut pas dire qu’Homo Sapiens et la culture humaine se soient soustraites aux lois biologiques. Nous sommes encore des animaux et nos capacités physiques, émotionnelles et cognitives demeurent façonnées par notre ADN. Nos sociétés sont construites avec les mêmes éléments que les sociétés de Néandertal et de chimpanzés. Des différences significatives ne commencent à apparaître que lorsque nous franchissons le seuil des 150 individus. Ensemble les Sapiens sont alors capables de construire des structures ordonnées – réseaux commerciaux, célébrations de masse, institutions politiques – qu’ils n’auraient jamais pu créer isolément Entre nous et les chimpanzés, la vraie différence réside dans la colle mythique qui lie de grands nombres d’individus, de familles et de groupes. Cette colle a fait de nous les maîtres de la création’’_
 
-## The Circular Economy is one of them
+### The Circular Economy is one of them
 

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "notes/everyone-is-a-circular-designer.md",
+            "file": "notes/building-your-backpack.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/everyone-is-a-circular-designer.md",
+                "file": "notes/building-your-backpack.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/everyone-is-a-circular-designer.md"
+                "file": "notes/building-your-backpack.md"
               }
             }
           }
@@ -117,15 +117,15 @@
   },
   "active": "7bca303eefe06341",
   "lastOpenFiles": [
+    "notes/building-your-backpack.md",
+    "notes/becoming-systems-dancers.md",
+    "notes/antifragile-circularity.md",
+    "notes/coach-teacher-mentor.md",
+    "notes/crowdlearning-the-circular-economy.md",
+    "notes/daily-life-circularity.md",
     "notes/everyone-is-a-circular-designer.md",
     "notes/limited-rationality.md",
-    "notes/Societies-founding-myths-and-the-Circular-Economy.md",
-    "notes/Limited-Rationality.md",
-    "notes/Everyone-is-a-circular-designer.md",
-    "notes/daily-life-circularity.md",
-    "notes/crowdlearning-the-circular-economy.md",
-    "notes/coach-teacher-mentor.md",
-    "notes/building-your-backpack.md",
-    "notes/becoming-systems-dancers.md"
+    "notes/societies-founding-myths-and-the-circular-economy.md",
+    "notes/Societies-founding-myths-and-the-Circular-Economy.md"
   ]
 }

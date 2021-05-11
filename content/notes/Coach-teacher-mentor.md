@@ -9,6 +9,4 @@ topics: ['Education', 'Illustrated Notes', 'Circular Economy']
 growthStage: 'Seedling'
 ---
 
-# Coach/Teacher/Mentor 
-
 Illustrated note, what is the difference exactly?? How is it linked with the Circularity?

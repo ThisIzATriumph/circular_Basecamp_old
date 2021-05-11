@@ -1,6 +1,6 @@
 ---
 title: 'Limited Rationality'
-slug: Limited-Rationality
+slug: limited-rationality
 startupdated: 2021-05-11
 updated: 2021-05-11
 published: true
@@ -9,7 +9,7 @@ topics: ['Anthropology']
 growthStage: 'Seedling'
 ---
 
-## Being rationale in your own bubble of perception
+### Being rationale in your own bubble of perception
 
 Ajouter article Grand-Pa
 

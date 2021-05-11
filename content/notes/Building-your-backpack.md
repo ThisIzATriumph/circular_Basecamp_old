@@ -9,8 +9,6 @@ topics: ['Systems', 'Illustrated Notes', 'Circular Economy', 'Personal developme
 growthStage: 'Budding'
 ---
 
-# Building your backpack 
-
 Learn to build your own Personal Knowledge Base! (Miro)
 Can you create an empty board that people can replicate to start leaning by themselves?
 

@@ -9,6 +9,4 @@ topics: ['Education', 'Illustrated Notes', 'Circular Economy']
 growthStage: 'Budding'
 ---
 
-# Daily life circularity
-
 What are the examples of the circular economy that you can find around you?
