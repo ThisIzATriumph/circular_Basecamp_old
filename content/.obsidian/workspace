@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "00009208cead98eb",
+        "id": "7bca303eefe06341",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "notes/Anti-fragile circularity.md",
+            "file": "notes/Building-your-backpack.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/Anti-fragile circularity.md",
+                "file": "notes/Building-your-backpack.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/Anti-fragile circularity.md"
+                "file": "notes/Building-your-backpack.md"
               }
             }
           }
@@ -115,17 +115,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "00009208cead98eb",
+  "active": "7bca303eefe06341",
   "lastOpenFiles": [
-    "notes/Anti-fragile circularity.md",
-    "notes/Everyone is a circular designer.md",
-    "notes/circulareconomy.md",
-    "notes/template.md",
-    "Everyone is a circular designer.md",
-    "notes/bidirectionals.mdx",
-    "notes/Circular Economy.md",
-    "notes/Anti-fragile circularity.mdx",
-    "Circular Economy.md",
-    "notes/artisan-data.mdx"
+    "notes/Building-your-backpack.md",
+    "notes/Becoming-systems-dancers.md",
+    "notes/Antifragile-Circularity.md",
+    "notes/Societies-founding-myths-and-the-Circular-Economy.md",
+    "notes/Limited-Rationality.md",
+    "notes/Limited-Rationality 1.md",
+    "notes/Everyone-is-a-circular-designer.md",
+    "notes/Everyone-is-a-circular-designer 1.md",
+    "notes/Daily-life-Circularity.md",
+    "notes/Crowdlearning-the-Circular-Economy.md"
   ]
 }

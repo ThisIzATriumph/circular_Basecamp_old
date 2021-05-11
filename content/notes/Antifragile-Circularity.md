@@ -1,6 +1,6 @@
 ---
 title: 'Anti-fragile Circularity'
-slug: antifragilecircularity
+slug: Antifragile-Circularity
 startupdated: 2021-05-04
 updated: 2021-05-04
 published: true
@@ -25,4 +25,4 @@ But the Hydra demonstrates Antifragility. When one head is cut off, two grow bac
 
 ### Anti-fragile Circular Designers
 
-[[Everyone is a circular designer]]
+[[Everyone-is-a-circular-designer]]
