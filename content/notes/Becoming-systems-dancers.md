@@ -1,6 +1,6 @@
 ---
 title: 'Becoming systems dancers'
-slug: Becoming-systems-dancers
+slug: becoming-systems-dancers
 startupdated: 2021-04-26
 updated: 2021-04-26
 published: true

@@ -1,6 +1,6 @@
 ---
 title: 'Coach, Teacher, Mentor'
-slug: Coach-teacher-mentor
+slug: coach-teacher-mentor
 startupdated: 2021-04-26
 updated: 2021-04-26
 published: true

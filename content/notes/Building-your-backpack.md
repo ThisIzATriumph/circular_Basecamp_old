@@ -1,6 +1,6 @@
 ---
 title: 'Building your backpack'
-slug: Building-your-backpack
+slug: building-your-backpack
 startupdated: 2021-04-26
 updated: 2021-05-11
 published: true

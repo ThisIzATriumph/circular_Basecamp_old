@@ -1,6 +1,6 @@
 ---
 title: 'Societies founding myths and the Circular Economy'
-slug: Societies-founding-myths-and-the-Circular-Economy
+slug: societies-founding-myths-and-the-circular-economy
 startupdated: 2021-05-11
 updated: 2021-05-11
 published: true

@@ -1,6 +1,6 @@
 ---
-title: 'dailylife'
-slug: Daily-life-Circularity
+title: 'Daily life Circularity'
+slug: daily-life-circularity
 startupdated: 2021-04-26
 updated: 2021-04-26
 published: true

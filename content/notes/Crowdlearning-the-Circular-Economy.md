@@ -1,6 +1,6 @@
 ---
 title: 'Crowdlearning the Circular Economy'
-slug: Crowdlearning-the-Circular-Economy
+slug: crowdlearning-the-circular-economy
 startupdated: 2021-05-05
 updated: 2021-05-05
 published: true

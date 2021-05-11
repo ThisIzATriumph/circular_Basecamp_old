@@ -1,6 +1,6 @@
 ---
 title: 'Everyone is a Circular Designer'
-slug: Everyone-is-a-circular-designer
+slug: everyone-is-a-circular-designer
 startupdated: 2021-05-04
 updated: 2021-05-04
 published: true
