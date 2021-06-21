@@ -7,7 +7,7 @@ const colors = {
   lightGrey: '#C5C9DB',
   lightestGrey: '#E0E9F1',
   orange: '#008080',
-  lightOrange: '#40e0d0',
+  lightOrange: '#40E0D0',
   blue: '#00A1E3',
   lightBlue: '#22BEF7',
   darkBlue: '#2F73E6',
