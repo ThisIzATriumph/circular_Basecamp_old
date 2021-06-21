@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "notes/craftsman-explorer.md",
+            "file": "notes/antifragile-circularity.md",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/craftsman-explorer.md",
+                "file": "notes/antifragile-circularity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/craftsman-explorer.md"
+                "file": "notes/antifragile-circularity.md"
               }
             }
           }
@@ -117,15 +117,15 @@
   },
   "active": "7bca303eefe06341",
   "lastOpenFiles": [
-    "notes/craftsman-explorer.md",
-    "notes/the-mapmaker.md",
-    "notes/daily-life-circularity.md",
-    "notes/the-mapmaker 1.md",
-    "notes/societies-founding-myths-and-the-circular-economy.md",
-    "notes/crowdlearning-the-circular-economy 1.md",
-    "notes/crowdlearning-the-circular-economy.md",
-    "notes/building-your-backpack.md",
+    "notes/antifragile-circularity.md",
     "notes/becoming-systems-dancers.md",
-    "notes/antifragile-circularity.md"
+    "notes/antifragile-circularity 1.md",
+    "_private/Obsidian -Vaults/2. Areas (Evergreen notes)/How to eat.md",
+    "_private/Obsidian -Vaults/2. Areas (Evergreen notes)/Meaning.md",
+    "_private/Obsidian -Vaults/2. Areas (Evergreen notes)/Curiosity Bursts.md",
+    "_private/Obsidian -Vaults/2. Areas (Evergreen notes)/Circular design Lab.md",
+    "_private/Obsidian -Vaults/1. Projects (Your focus now)/Habits making for the freelancer.md",
+    "_private/Obsidian -Vaults/1. Projects (Your focus now)/Horizon 2023.md",
+    "_private/Obsidian -Vaults/1. Projects (Your focus now)/Crafting visual metaphors.md"
   ]
 }
