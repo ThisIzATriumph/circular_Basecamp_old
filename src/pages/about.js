@@ -122,7 +122,7 @@ const AboutPage = () => {
                 margin: 0.5em;
               }
               :hover {
-                border: 1px solid ${theme.colors.orange};
+                border: 1px solid ${theme.colors.teal};
                 h2, h4 {
                 color: ${theme.colors.black};
                 }

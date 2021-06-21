@@ -9,7 +9,7 @@ module.exports = {
   siteLogo: 'images/favicon-ma.svg', // Used for SEO and manifest, path to your image you placed in the 'static' folder
   siteDescription:
     'Maggie Appleton is an art director and anthropological designer. This is her digital garden for growing visual explanations about technology, culture, and programming',
-  author: 'Baptiste Sene, based on Maggie Appleton s work', // Author for schemaORGJSONLD
+  author: 'Baptiste Sene, thanks to Maggie Appleton', // Author for schemaORGJSONLD
   organization: 'Basendo',
 
   // siteFBAppID: '123456789', // Facebook App ID - Optional
