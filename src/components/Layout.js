@@ -32,7 +32,7 @@ const getGlobalStyles = theme => {
       text-decoration: none;
       &:hover,
       &:focus {
-        color: ${theme.colors.orange};
+        color: ${theme.colors.teal};
       }
     }
     h1,
@@ -45,7 +45,7 @@ const getGlobalStyles = theme => {
         color: ${theme.colors.blue};
         &:hover,
         &:focus {
-          color: ${theme.colors.orange};
+          color: ${theme.colors.teal};
         }
       }
     }
@@ -80,7 +80,7 @@ const getGlobalStyles = theme => {
       font-family: ${fonts.regularItalic};
     }
     mark {
-      background-color: ${lighten(0.15,theme.colors.lightOrange)};
+      background-color: ${lighten(0.15, theme.colors.lightTeal)};
       padding: 1px 8px;
       border-radius: 4px;
     }
@@ -110,7 +110,7 @@ const getGlobalStyles = theme => {
     }
     button {
       border-radius: 4px;
-      background-color: ${darken(0.04, theme.colors.lightOrange)};
+      background-color: ${darken(0.04, theme.colors.lightTeal)};
       border: none;
       color: ${theme.colors.white};
       font-family: ${fonts.walsheim};
@@ -119,8 +119,8 @@ const getGlobalStyles = theme => {
       border: 1px solid ${theme.colors.primary};
       transition: all 400ms;
       :hover {
-        background: ${theme.colors.lightOrange};
-        border: 1px solid ${darken(0.05, theme.colors.lightOrange)};
+        background: ${theme.colors.lightTeal};
+        border: 1px solid ${darken(0.05, theme.colors.lightTeal)};
         transform: translateY(-2px) scale(1.01);
         transition: all 400ms;
         box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.08);

@@ -253,7 +253,10 @@ const GardenPage = ({ data: { site, notesQuery } }) => {
                       justify-content: space-between;
                       padding-top: 0.4em;
                       margin-top: 1.24em;
-                      border-top: 1px solid ${lighten(0.12, theme.colors.lightGrey)};
+                      border-top: 1px solid ${lighten(
+                        0.12,
+                        theme.colors.lightGrey,
+                      )};
                       h6 {
                         margin: 0;
                       }
@@ -279,7 +282,7 @@ const GardenPage = ({ data: { site, notesQuery } }) => {
                   <h4>{note.title}</h4>
                   <div className="metadata">
                     <h6 className="updated">
-                       {note.childMarkdownRemark.frontmatter.updated}
+                      {note.childMarkdownRemark.frontmatter.updated}
                     </h6>
                     <span>
                       {note.childMarkdownRemark.frontmatter.growthStage ===
