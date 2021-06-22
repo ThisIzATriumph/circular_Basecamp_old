@@ -5,12 +5,12 @@ const themes = {
   default: {
     themeName: 'default',
     colors: {
-      primary: colors.teal,
+      primary: colors.orange,
       text: colors.black,
       bodyBg: colors.white,
       headerBg: colors.white,
       sidebarBg: colors.lightgrey,
-      link: colors.teal,
+      link: colors.orange,
       ...colors,
     },
   },
