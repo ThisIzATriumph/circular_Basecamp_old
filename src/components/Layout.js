@@ -27,7 +27,7 @@ const getGlobalStyles = theme => {
       background-color: ${theme.colors.primary};
     }
     a {
-      color: ${theme.colors.blue};
+      color: ${theme.colors.lightBlue};
       transition: 0.4s;
       text-decoration: none;
       &:hover,
@@ -42,7 +42,7 @@ const getGlobalStyles = theme => {
     h5,
     h6 {
       a {
-        color: ${theme.colors.blue};
+        color: ${theme.colors.lightBlue};
         &:hover,
         &:focus {
           color: ${theme.colors.orange};
@@ -119,8 +119,8 @@ const getGlobalStyles = theme => {
       border: 1px solid ${theme.colors.primary};
       transition: all 400ms;
       :hover {
-        background: ${theme.colors.lightOrange};
-        border: 1px solid ${darken(0.05, theme.colors.lightOrange)};
+        background: ${theme.colors.orange};
+        border: 1px solid ${darken(0.05, theme.colors.orange)};
         transform: translateY(-2px) scale(1.01);
         transition: all 400ms;
         box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.08);
