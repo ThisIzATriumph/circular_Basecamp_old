@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react'
 import Tippy from '@tippyjs/react'
-import {inlinePositioning} from 'tippy.js'
-import { Link as GatsbyLink } from "gatsby"
+import { inlinePositioning } from 'tippy.js'
+import { Link as GatsbyLink } from 'gatsby'
 import 'tippy.js/dist/tippy.css'
 import 'tippy.js/animations/shift-away.css'
 import 'tippy.js/themes/light.css'
@@ -23,13 +23,13 @@ const LinkTooltip = forwardRef((props, ref) => {
         content={props.bidirectionallinkpreviews[previewKey]}
         ref={ref}
         css={css`
-        h2 {
-          padding: 0 0.2em;
-        }
+          h2 {
+            padding: 0 0.2em;
+          }
           p {
             line-height: 1.4em;
-          padding: 0.2em;
-          font-size: 1.3em;
+            padding: 0.2em;
+            font-size: 1.3em;
           }
         `}
       >
@@ -54,12 +54,17 @@ const LinkTooltip = forwardRef((props, ref) => {
         font-size: 0.75em;
       `}
     >
-      <span css={css`
+      <span
+        css={css`
           word-break: break-all;
           word-wrap: break-word;
           overflow: visible;
           white-space: pre;
-        `} ref={ref}>{props.children}</span>
+        `}
+        ref={ref}
+      >
+        {props.children}
+      </span>
     </Tippy>
   )
 })
@@ -68,44 +73,53 @@ const TipLink = ({ noTip, children, href, ...other }) => {
   const theme = useTheme()
   const internal = /^\/(?!\/)/.test(href)
 
-  if(internal){
+  if (internal) {
     return (
-      <GatsbyLink css={css`
-      display: inline-block;`}
-      to={href}{...other}>
-        <LinkTooltip internal href={href}{...other}>
-        <span css={css`
-          text-decoration: none;
-          line-height: 1;
-          position: relative;
-          z-index: 0;
+      <GatsbyLink
+        css={css`
           display: inline-block;
-          padding: 3px 0 8px 3px;
-          top: -2px;
-          overflow: hidden;
-          color: ${theme.colors.orange};
-          vertical-align: bottom;
-          transition: color .3s ease-out;
-          ::before {
+        `}
+        to={href}
+        {...other}
+      >
+        <LinkTooltip internal href={href} {...other}>
+          <span
+            css={css`
+              text-decoration: none;
+              line-height: 1;
+              position: relative;
+              z-index: 0;
               display: inline-block;
-              content: "";
-              position: absolute;
-              z-index: -1;
-              top: 0;
-              left: 0;
-              transform: translateY(calc(100% - 2px));
-              width: 0px;
-              height: 100%;
-              background: ${theme.colors.lightestGrey};
-              transition: all 500ms ease-in-out;
-          }
-          :hover::before, :focus::before {
-              width: 99%;
-              transition: all 500ms ease-in-out;
-              background: ${theme.colors.lightOrange};
-          }
-        `}>{children}</span>
-      </LinkTooltip>
+              padding: 3px 0 8px 3px;
+              top: -2px;
+              overflow: hidden;
+              color: ${theme.colors.orange};
+              vertical-align: bottom;
+              transition: color 0.3s ease-out;
+              ::before {
+                display: inline-block;
+                content: '';
+                position: absolute;
+                z-index: -1;
+                top: 0;
+                left: 0;
+                transform: translateY(calc(100% - 2px));
+                width: 0px;
+                height: 100%;
+                background: ${theme.colors.lightestGrey};
+                transition: all 500ms ease-in-out;
+              }
+              :hover::before,
+              :focus::before {
+                width: 99%;
+                transition: all 500ms ease-in-out;
+                background: ${theme.colors.lightOrange};
+              }
+            `}
+          >
+            {children}
+          </span>
+        </LinkTooltip>
       </GatsbyLink>
     )
   }
@@ -132,7 +146,7 @@ const TipLink = ({ noTip, children, href, ...other }) => {
         {children}
       </a>
     )
-      }
+  }
 
   return (
     <a

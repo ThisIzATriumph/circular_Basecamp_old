@@ -6,7 +6,7 @@ module.exports = {
   siteTitleShort: 'Circular_Basecamp', // short_name for manifest
   siteUrl: 'https://maggieappleton.com', // Domain of your site. No trailing slash!
   siteLanguage: 'en', // Language Tag on <html> element
-  siteLogo: 'images/favicon-ma.svg', // Used for SEO and manifest, path to your image you placed in the 'static' folder
+  siteLogo: 'images/favicon-bs.svg', // Used for SEO and manifest, path to your image you placed in the 'static' folder
   siteDescription:
     'Maggie Appleton is an art director and anthropological designer. This is her digital garden for growing visual explanations about technology, culture, and programming',
   author: 'Baptiste Sene, thanks to Maggie Appleton', // Author for schemaORGJSONLD
