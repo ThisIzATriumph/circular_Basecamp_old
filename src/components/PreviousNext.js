@@ -9,7 +9,7 @@ const PreviousNext = props => {
   return (
     <div
       css={css`
-      margin: auto;
+        margin: auto;
         display: flex;
         justify-content: space-between;
         margin-bottom: 2em;
@@ -39,7 +39,7 @@ const PreviousNext = props => {
           transition: 600ms ease;
           padding: 0 0.6em;
           margin: 0;
-          color: ${theme.colors.grey};
+          color: ${theme.colors.lightGrey};
           max-width: 300px;
           font-size: 90%;
         }

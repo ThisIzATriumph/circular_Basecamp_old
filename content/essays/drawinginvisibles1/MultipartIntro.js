@@ -46,7 +46,7 @@ const MultipartIntro = () => {
           transition: '0.6s',
           borderTop: '2px solid #7B44BC',
           p: {
-            color: 'black',
+            color: 'lightGrey',
             transition: '0.6s',
           },
           span: {
@@ -66,7 +66,7 @@ const MultipartIntro = () => {
             transition: '0.6s',
             transform: 'translateY(-6px)',
             p: {
-              color: 'black',
+              color: 'lightGrey',
               transition: '0.6s',
             },
             span: {
@@ -80,15 +80,15 @@ const MultipartIntro = () => {
           maxWidth: '190px',
           display: 'block',
           transition: '0.6s',
-          margin: '0 6px'
+          margin: '0 6px',
         },
         p: {
-          color: '#718597',
+          color: 'lightGrey',
           transition: '0.6s',
           alignSelf: 'center',
         },
         span: {
-          color: '#718597',
+          color: 'lightGrey',
           alignSelf: 'start',
           fontFamily: 'sans-serif',
           fontSize: '0.8em',
@@ -103,9 +103,7 @@ const MultipartIntro = () => {
       </div>
       <div className="outer linked">
         <span>Part 2</span>
-        <PartName
-          partName="Cultural and Linguistic Research"
-        />
+        <PartName partName="Cultural and Linguistic Research" />
       </div>
       <div className="outer">
         <span>Part 3</span>

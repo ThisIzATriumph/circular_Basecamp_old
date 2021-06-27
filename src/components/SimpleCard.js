@@ -10,7 +10,7 @@ const SimpleCard = props => {
       css={css({
         position: 'relative',
         gridColumn: '1/4',
-        border: '1px solid rgba(52, 61, 68, 0.05)',
+        border: '1px solid rgba(237, 241, 240, 0.1)',
         transition: props.hover
           ? 'all 0.8s cubic-bezier(0.2, 0.8, 0.2, 1) 0s;'
           : null,
@@ -27,12 +27,14 @@ const SimpleCard = props => {
           margin: props.center ? '0.8em auto 0' : null,
         },
         boxShadow: props.hover
-          ? '0px 1px 2px rgba(52, 61, 68, 0.1)'
-          : '0 4px 10px -4px rgba(0,0,0,0.15)',
+          ? '0px 1px 2px rgba(237, 241, 240, 0.1)'
+          : '0 4px 10px -4px rgba(255, 255 , 255,0.15)',
         ':hover': {
           transform: props.hover ? 'scale(1.015)' : null,
           borderRadius: props.hover ? '0px 0px 6px 6px' : null,
-          boxShadow: props.hover ? '0 10px 30px -10px rgba(0,0,0,0.15)' : null,
+          boxShadow: props.hover
+            ? '0 10px 30px -10px rgba(255, 255, 255,0.15)'
+            : null,
           p: {
             transition: 'all 0.8s cubic-bezier(0.2, 0.8, 0.2, 1) 0s;',
           },
@@ -43,7 +45,7 @@ const SimpleCard = props => {
         '::before': {
           position: 'absolute',
           content: '" "',
-          top: 0,
+          top: -1,
           left: 0,
           width: '100%',
           height: '2px',

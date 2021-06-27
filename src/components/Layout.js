@@ -18,16 +18,16 @@ const getGlobalStyles = theme => {
     counter-reset: sidenote-counter;
     padding: 0.4em;
     min-height: 100vh;
-    background-image: linear-gradient(180deg, ${theme.colors.white} 0%, ${
-    theme.colors.white
-  } 88%, ${theme.colors.offWhite} 100%);
+    background-image: linear-gradient(180deg, ${theme.colors.darkGrey} 0%, ${
+    theme.colors.darkGrey
+  } 88%, ${theme.colors.black} 100%);
     }
     &::selection {
       color: ${theme.colors.white};
       background-color: ${theme.colors.primary};
     }
     a {
-      color: ${theme.colors.lightBlue};
+      color: ${theme.colors.blue};
       transition: 0.4s;
       text-decoration: none;
       &:hover,
@@ -42,7 +42,7 @@ const getGlobalStyles = theme => {
     h5,
     h6 {
       a {
-        color: ${theme.colors.lightBlue};
+        color: ${theme.colors.darkBlue};
         &:hover,
         &:focus {
           color: ${theme.colors.orange};
@@ -73,7 +73,7 @@ const getGlobalStyles = theme => {
     hr {
       margin: 50px 0;
       border: none;
-      border-top: 1px solid ${theme.colors.gray};
+      border-top: 1px solid ${theme.colors.lightGrey};
       background: none;
     }
     em {

@@ -6,9 +6,9 @@ const themes = {
     themeName: 'default',
     colors: {
       primary: colors.orange,
-      text: colors.black,
+      text: colors.lightGrey,
       bodyBg: colors.white,
-      headerBg: colors.white,
+      headerBg: colors.darkGrey,
       sidebarBg: colors.lightgrey,
       link: colors.orange,
       ...colors,

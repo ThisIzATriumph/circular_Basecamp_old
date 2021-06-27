@@ -30,7 +30,7 @@ const Hero = () => {
       <Container>
         <h1
           css={css`
-            color: ${theme.colors.black};
+            color: ${theme.colors.lightGrey};
             z-index: 5;
             font-family: ${fonts.walsheimBold};
             font-weight: 100;
@@ -49,7 +49,7 @@ const Hero = () => {
         <h2
           css={css`
             font-family: ${fonts.regular};
-            color: ${theme.colors.darkGrey};
+            color: ${theme.colors.grey};
             font-weight: 200;
             font-size: ${rhythm(1.3)};
             line-height: ${rhythm(1.7)};
@@ -101,11 +101,11 @@ const SmallSectionLink = props => {
         font-size: 0.8em;
         font-family: ${fonts.walsheim};
         padding: 8px 0px;
-        border-bottom: 1px solid ${theme.colors.lightestGrey};
+        border-bottom: 1px solid ${theme.colors.blue};
         &:hover {
-          color: ${theme.colors.darkBlue};
+          color: ${theme.colors.lightOrange};
           transform: translateY(2px);
-          border-bottom: 2px solid ${theme.colors.blue};
+          border-bottom: 2px solid ${theme.colors.lightOrange};
         }
       `}
       to={props.to}
@@ -287,11 +287,11 @@ export default function Index({
                       align-items: flex-start;
                       justify-content: space-between;
                       h4 {
-                        color: ${theme.colors.darkGrey};
+                        color: ${theme.colors.lightGrey};
                         margin-top: 0;
                         margin-bottom: 0;
                         &:hover {
-                          color: ${theme.colors.black};
+                          color: ${theme.colors.lightGrey};
                         }
                       }
                       div.metadata {

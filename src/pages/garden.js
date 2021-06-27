@@ -241,10 +241,10 @@ const GardenPage = ({ data: { site, notesQuery } }) => {
                     padding: 0.8em 1em;
                     transition: all 400ms ease-in-out;
                     h4 {
-                      color: ${theme.colors.darkGrey};
+                      color: ${theme.colors.lightGrey};
                       margin: 0;
                       &:hover {
-                        color: ${theme.colors.black};
+                        color: ${theme.colors.lightGrey};
                       },
                     }
                     div.metadata {

@@ -14,7 +14,7 @@ export const fonts = {
   regularSansItalic: 'Freight Sans W03 Book Italic',
   lightSans: 'Freight Sans W03 Light',
   boldSans: 'Freight Sans W03 Bold',
-  monoRegular: 'IBM Plex'
+  monoRegular: 'IBM Plex',
 }
 
 const typography = new Typography({
@@ -23,24 +23,24 @@ const typography = new Typography({
   headerLineHeight: 1.4,
   headerFontFamily: [fonts.walsheim, 'sans-serif'],
   bodyFontFamily: [fonts.regular, 'serif'],
-  headerColor: '#121F35',
-  bodyColor: '#334259',
+  headerColor: '#EDF1F0',
+  bodyColor: '#7990A2',
 
   overrideStyles: ({ rhythm }) => ({
     h1: {
-      color: colors.black,
+      color: colors.lightGrey,
       fontFamily: fonts.walsheim,
       fontSize: rhythm(2.1),
       letterSpacing: 'normal',
     },
     h2: {
-      color: colors.darkGrey,
+      color: colors.white,
       fontFamily: fonts.regular,
       fontSize: rhythm(1.3),
       fontWeight: 'normal',
     },
     h3: {
-      color: colors.darkGrey,
+      color: colors.white,
       fontFamily: fonts.lightSans,
       fontSize: rhythm(1),
       letterSpacing: 'normal',
@@ -69,7 +69,7 @@ const typography = new Typography({
       textRendering: 'optimizeLegibility',
     },
     h6: {
-      color: colors.grey,
+      color: colors.lightGrey,
     },
     p: {
       maxWidth: '660px',
@@ -79,7 +79,7 @@ const typography = new Typography({
       marginBottom: rhythm(1 / 2),
       WebkitFontSmoothing: 'antialiased',
       textRendering: 'optimizeLegibility',
-    }
+    },
   }),
 })
 // Hot reload typography in development.

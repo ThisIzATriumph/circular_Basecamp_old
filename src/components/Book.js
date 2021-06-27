@@ -10,7 +10,10 @@ import { useTheme } from 'components/Theming'
 export const Book = props => {
   const theme = useTheme()
   return (
-      <Link to={ props.redirectTo ? `/${props.redirectTo}` : `/${props.slug}`}  aria-label={`View ${props.title}`}>
+    <Link
+      to={props.redirectTo ? `/${props.redirectTo}` : `/${props.slug}`}
+      aria-label={`View ${props.title}`}
+    >
       <div
         key={props.id}
         css={css`
@@ -39,7 +42,7 @@ export const Book = props => {
               box-shadow: 0px 7px 13px -7px rgba(115, 130, 140, 0.98);
             }
             h4 {
-              color: ${theme.colors.black};
+              color: ${theme.colors.lightGrey};
             }
           }
         `}
@@ -61,8 +64,22 @@ export const Book = props => {
         >
           {props.title}
         </h4>
-        <h6 css={css`margin: 0;`}>{props.author}</h6>
-        <h6 css={css`margin: 0; padding: 0; font-size: 70%;`}>{props.lastTended}</h6>
+        <h6
+          css={css`
+            margin: 0;
+          `}
+        >
+          {props.author}
+        </h6>
+        <h6
+          css={css`
+            margin: 0;
+            padding: 0;
+            font-size: 70%;
+          `}
+        >
+          {props.lastTended}
+        </h6>
       </div>
     </Link>
   )
@@ -99,7 +116,7 @@ export const AntiBook = props => {
               box-shadow: 0px 7px 13px -7px rgba(115, 130, 140, 0.98);
             }
             h4 {
-              color: ${theme.colors.black};
+              color: ${theme.colors.lightGrey};
             }
           }
         `}
@@ -123,6 +140,6 @@ export const AntiBook = props => {
         </h4>
         <h6>{props.author}</h6>
       </div>
-      </a>
+    </a>
   )
 }
