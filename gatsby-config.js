@@ -132,6 +132,7 @@ module.exports = {
         background_color: config.backgroundColor,
         theme_color: config.themeColor,
         display: 'standalone',
+        icon: `static/icon.png`,
         icons: [
           {
             src: '/android-chrome-192x192.png',
@@ -164,14 +165,20 @@ module.exports = {
         feeds: [
           {
             serialize: ({ query: { site, allMdx } }) => {
-              return allMdx.edges.map((edge) => {
+              return allMdx.edges.map(edge => {
                 return Object.assign({}, edge.node.frontmatter, {
                   description: edge.node.excerpt,
                   updated: edge.node.frontmatter.updated,
-                  url: site.siteMetadata.siteUrl + '/' + edge.node.frontmatter.slug,
-                  guid: site.siteMetadata.siteUrl + '/' + edge.node.frontmatter.slug
-                });
-              });
+                  url:
+                    site.siteMetadata.siteUrl +
+                    '/' +
+                    edge.node.frontmatter.slug,
+                  guid:
+                    site.siteMetadata.siteUrl +
+                    '/' +
+                    edge.node.frontmatter.slug,
+                })
+              })
             },
             query: `
               {
@@ -193,9 +200,9 @@ module.exports = {
             `,
             output: '/rss.xml',
             title: 'Maggieappleton.com',
-          }
-        ]
-      }
+          },
+        ],
+      },
     },
     {
       resolve: `gatsby-plugin-google-analytics`,

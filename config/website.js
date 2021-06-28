@@ -4,11 +4,11 @@ module.exports = {
   siteTitleAlt:
     'Circular Basecamp gears up designers to support the transition towards a Circular Economy', // Alternative Site title for SEO
   siteTitleShort: 'Circular_Basecamp', // short_name for manifest
-  siteUrl: 'https://maggieappleton.com', // Domain of your site. No trailing slash!
+  siteUrl: 'https://circular-basecamp.com', // Domain of your site. No trailing slash!
   siteLanguage: 'en', // Language Tag on <html> element
   siteLogo: 'images/favicon-bs.svg', // Used for SEO and manifest, path to your image you placed in the 'static' folder
   siteDescription:
-    'Maggie Appleton is an art director and anthropological designer. This is her digital garden for growing visual explanations about technology, culture, and programming',
+    'Baptiste Sene is a Circular design engineer. This is his digital garden for growing visual explanations about the Citcular Economy, design & visual storytelling.',
   author: 'Baptiste Sene, thanks to Maggie Appleton', // Author for schemaORGJSONLD
   organization: 'Basendo',
 
