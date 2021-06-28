@@ -49,11 +49,11 @@ const Hero = () => {
         <h2
           css={css`
             font-family: ${fonts.regular};
-            color: ${theme.colors.grey};
+            color: ${theme.colors.lightestGrey};
             font-weight: 200;
             font-size: ${rhythm(1.3)};
             line-height: ${rhythm(1.7)};
-            max-width: ${rhythm(30)};
+            max-width: ${rhythm(25)};
             ${bpMaxSM} {
               font-size: ${rhythm(0.9)};
               line-height: ${rhythm(1.1)};
@@ -69,7 +69,7 @@ const Hero = () => {
             font-weight: 300;
             margin-bottom: ${rhythm(1.2)};
             line-height: ${rhythm(1)};
-            color: ${theme.colors.grey};
+            color: ${theme.colors.lightestGrey};
             letter-spacing: 0em;
             ${bpMaxSM} {
               margin-bottom: ${rhythm(0.4)};

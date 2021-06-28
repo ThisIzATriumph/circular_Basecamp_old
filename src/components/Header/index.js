@@ -45,8 +45,8 @@ const Header = () => {
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="32"
-              height="26"
+              width="40"
+              height="40"
               viewBox="0 0 512 512"
               css={css`
                 margin-top: 0.4em;
