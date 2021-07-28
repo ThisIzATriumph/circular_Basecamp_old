@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "notes/antifragile-circularity.md",
+            "file": "books/this-is-not-a-drill/index.mdx",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/antifragile-circularity.md",
+                "file": "books/this-is-not-a-drill/index.mdx",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/antifragile-circularity.md"
+                "file": "books/this-is-not-a-drill/index.mdx"
               }
             }
           }
@@ -117,15 +117,15 @@
   },
   "active": "7bca303eefe06341",
   "lastOpenFiles": [
-    "notes/antifragile-circularity.md",
-    "notes/becoming-systems-dancers.md",
-    "notes/antifragile-circularity 1.md",
-    "_private/Obsidian -Vaults/2. Areas (Evergreen notes)/How to eat.md",
-    "_private/Obsidian -Vaults/2. Areas (Evergreen notes)/Meaning.md",
-    "_private/Obsidian -Vaults/2. Areas (Evergreen notes)/Curiosity Bursts.md",
-    "_private/Obsidian -Vaults/2. Areas (Evergreen notes)/Circular design Lab.md",
-    "_private/Obsidian -Vaults/1. Projects (Your focus now)/Habits making for the freelancer.md",
-    "_private/Obsidian -Vaults/1. Projects (Your focus now)/Horizon 2023.md",
-    "_private/Obsidian -Vaults/1. Projects (Your focus now)/Crafting visual metaphors.md"
+    "books/this-is-not-a-drill/index.mdx",
+    "books/this-is-not-a-drill/themacroscope.jpg",
+    "books/the-macroscope/index 1.mdx",
+    "books/the-macroscope/index.mdx",
+    "books/the-macroscope/themacroscope.jpg",
+    "essays/drawinginvisibles1/index.mdx",
+    "essays/wtf-api/index.mdx",
+    "essays/wtf-api/API_5.png",
+    "essays-drafts/frontmatter-placeholder copy/index.md",
+    "essays-drafts/frontmatter-placeholder copy/images/banner.jpg"
   ]
 }

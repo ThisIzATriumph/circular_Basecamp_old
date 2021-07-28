@@ -23,6 +23,10 @@ But the Hydra demonstrates Antifragility. When one head is cut off, two grow bac
 
 ### Anti-fragile Product-Service-Systems
 
+Circular PSS are complex systems of stakeholders, logistical loops & market dynamics. 
+
 ### Anti-fragile Circular Designers
+
+
 
 [[everyone-is-a-circular-designer]]

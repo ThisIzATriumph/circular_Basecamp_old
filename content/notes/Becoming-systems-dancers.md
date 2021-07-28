@@ -11,10 +11,11 @@ growthStage: 'Budding'
 
 Donella Meadows coined the expression of 'Dancing with systems' for the practitioners of Systems thinking. The systems thinkers & designers who would know and respect the complexity lying before them. 
 
-As mentioned in other posts, practicing circularity or circular design is for me a dance with systems. 
+### Humbling experience
+As pointed by Joel de Rosnay in its book "The Macroscope" (see it in the library), the first step to any work with a system is to understand that we are an integral part of one of its supra-system. We are the cell observing the human body. 
 
-Humbling experience, 
 
-Good systems dancers are good humans.
+### Good systems dancers are good humans
 
-Living your humanity 
+
+### Living your humanity
