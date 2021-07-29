@@ -12,3 +12,6 @@ growthStage: 'Seedling'
 The Crafts(wo)man-Explorer. 
 
 Craftsmanship and exploration are two faces of the same coin. 
+
+[Picture of an explorer cutting trees with a pen]
+

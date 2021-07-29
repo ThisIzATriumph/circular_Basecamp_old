@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "books/this-is-not-a-drill/index.mdx",
+            "file": "books/the-macroscope/index.mdx",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "books/this-is-not-a-drill/index.mdx",
+                "file": "books/the-macroscope/index.mdx",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "books/this-is-not-a-drill/index.mdx"
+                "file": "books/the-macroscope/index.mdx"
               }
             }
           }
@@ -117,15 +117,15 @@
   },
   "active": "7bca303eefe06341",
   "lastOpenFiles": [
-    "books/this-is-not-a-drill/index.mdx",
-    "books/this-is-not-a-drill/themacroscope.jpg",
-    "books/the-macroscope/index 1.mdx",
     "books/the-macroscope/index.mdx",
-    "books/the-macroscope/themacroscope.jpg",
+    "notes/antifragile-circularity.md",
+    "books/this-is-not-a-drill/index.mdx",
     "essays/drawinginvisibles1/index.mdx",
-    "essays/wtf-api/index.mdx",
-    "essays/wtf-api/API_5.png",
-    "essays-drafts/frontmatter-placeholder copy/index.md",
-    "essays-drafts/frontmatter-placeholder copy/images/banner.jpg"
+    "notes/crowdlearning-the-circular-economy.md",
+    "notes/daily-life-circularity.md",
+    "notes/everyone-is-a-circular-designer.md",
+    "notes/craftsman-explorer.md",
+    "notes/coach-teacher-mentor.md",
+    "notes/building-your-backpack.md"
   ]
 }

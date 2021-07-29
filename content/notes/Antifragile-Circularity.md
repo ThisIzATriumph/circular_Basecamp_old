@@ -9,9 +9,15 @@ topics: ['Circular Economy', 'Systems thinking', 'Systems Design']
 growthStage: 'Seedling'
 ---
 
+<SimpleCard width="700px">
+
+<p  style={{ textAlign: 'center' }}> **Antifragility** is a property of systems in which they increase in capability to thrive as a result of stressors, shocks, volatility, noise, mistakes, faults, attacks, or failures. The concept was developed by Nassim Nicholas Taleb in his book, Antifragile, and in technical papers.</p>
+
+</SimpleCard>
+
 Some things benefit from shocks; they thrive and grow when exposed to volatility, randomness, disorder, and stressors and love adventure, risk, and uncertainty. Yet, in spite of the ubiquity of the phenomenon, there is no word for the exact opposite of fragile. Let us call it antifragile. Antifragility is beyond resilience or robustness. The resilient resists shocks and stays the same; the antifragile gets better.
 
-**Damocles, Phoenix, Hydra**
+### Damocles, the Phoenix & the Hydra
 
 Taleb uses ancient examples to explain the triad of Fragile, Robust, and Antifragile. Damocles, who dines with a sword dangling over his head, is fragile. A small stress to the string holding the sword will kill him.
 
@@ -20,6 +26,25 @@ The Phoenix, which dies and is reborn from its ashes, is robust. It always retur
 But the Hydra demonstrates Antifragility. When one head is cut off, two grow back.
 
 --> Insert a visual of the triple metaphor.
+
+### Anti-fragility in education & human relationships
+
+For a system, a shock is a new event that puts it into dis-balance. While the sword over Damocles' head may be fatal to him, some shocks reveal themselves useful in the evolution of the system. Let's consider two areas of life where external inputs and shocks are needed to thrive: Education & Human relationships. 
+
+In Education first, to grow as a learner one must be exposed to new bits of knowledge. These nuggets may be seen as shocks against the previously in-balance system of the learner, the strongest of them being the "a-ha" moments when understanding click-in. 
+
+--> Insert Eureka visual or the coin that drops
+
+In Human relationships, connections between lovers or individuals would crumble if not exposed to newness even for it being the tiniest appreciation of new details & experiences in the relationship. We need new interactions to keep growing together. Those interactions can be seen as shocks for the couple or friends system. 
+
+--> Love is like a fire
+
+### Growth vs development 
+The metaphor of the Hydra suggest that **growth** is the primary mean of evolution of an anti-fragile system. It seems important to establish the difference between growth and development here: when exposed to shock, a couple doesn't necessarily involve a third lover to grow stronger from its crisis (even though it may be considered as a source of newness! ). 
+
+In facts, couples and learners are growing in their mutual **understanding** of each other and the subject at study. The understanding of a system towards what may come to it as a shock is a certain kind of growth than we can name development. 
+
+This difference comes in handy when considering the decoupling of growth & material consumption within our global economy. A certain kind of growth can be produced and achieved through sustainable development. Some may consider it infinite as we're nowhere close the full understanding of ourselves and the systems we live in. 
 
 ### Anti-fragile Product-Service-Systems
 
