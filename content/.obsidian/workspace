@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "7bca303eefe06341",
+        "id": "801caa34fad66365",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "books/the-macroscope/index.mdx",
+            "file": "notes/antifragile-circularity.mdx",
             "mode": "source"
           }
         }
@@ -76,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "books/the-macroscope/index.mdx",
+                "file": "notes/antifragile-circularity.mdx",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "books/the-macroscope/index.mdx"
+                "file": "notes/antifragile-circularity.mdx"
               }
             }
           }
@@ -115,17 +115,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "7bca303eefe06341",
+  "active": "801caa34fad66365",
   "lastOpenFiles": [
+    "notes/antifragile-circularity.mdx",
+    "notes-drafts/everythingisabox.mdx",
+    "notes-drafts/draft_anthropology-react.mdx",
+    "notes-drafts/dirty-perspective.mdx",
+    "notes-drafts/data-dictionary.mdx",
+    "notes-drafts/box-mistakes.mdx",
+    "books/addiction-by-design/index.mdx",
+    "books/addiction-by-design/addictionbydesign.jpg",
     "books/the-macroscope/index.mdx",
-    "notes/antifragile-circularity.md",
-    "books/this-is-not-a-drill/index.mdx",
-    "essays/drawinginvisibles1/index.mdx",
-    "notes/crowdlearning-the-circular-economy.md",
-    "notes/daily-life-circularity.md",
-    "notes/everyone-is-a-circular-designer.md",
-    "notes/craftsman-explorer.md",
-    "notes/coach-teacher-mentor.md",
-    "notes/building-your-backpack.md"
+    "books/the-macroscope/themacroscope.jpg"
   ]
 }
