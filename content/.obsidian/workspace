@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "draft",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -118,14 +118,14 @@
   "active": "801caa34fad66365",
   "lastOpenFiles": [
     "notes/antifragile-circularity.mdx",
-    "notes-drafts/everythingisabox.mdx",
-    "notes-drafts/draft_anthropology-react.mdx",
-    "notes-drafts/dirty-perspective.mdx",
-    "notes-drafts/data-dictionary.mdx",
-    "notes-drafts/box-mistakes.mdx",
-    "books/addiction-by-design/index.mdx",
-    "books/addiction-by-design/addictionbydesign.jpg",
-    "books/the-macroscope/index.mdx",
-    "books/the-macroscope/themacroscope.jpg"
+    "notes/Archive/babel.mdx",
+    "notes/Archive/data-unions.mdx",
+    "notes/Archive/contentful-gatsby.mdx",
+    "notes/Archive/bidirectionals.mdx",
+    "notes-drafts/responsive-scrollytelling.mdx",
+    "notes-drafts/scrolly-patterns.mdx",
+    "notes-drafts/solid.mdx",
+    "notes-drafts/openspacetech.mdx",
+    "notes-drafts/metaphor-books.mdx"
   ]
 }
