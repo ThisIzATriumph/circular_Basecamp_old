@@ -7,11 +7,8 @@
         "id": "0e5238b65937030a",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "essays/antifragile-circularity/index.mdx",
-            "mode": "source"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -68,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "essays/antifragile-circularity/index.mdx",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +84,15 @@
   },
   "active": "0e5238b65937030a",
   "lastOpenFiles": [
+    "essays/antifragile-circularity/thumb@2x.jpg",
     "essays/antifragile-circularity/index.mdx",
     "essays/drawinginvisibles1/index.mdx",
+    "essays/drawinginvisibles1/thumb@2x.png",
     "essays/antifragile-circularity/Old.png",
     "essays/antifragile-circularity/Damocles_Hydra_Phoenix_v1.jpg",
     "notes/antifragile-circularity.mdx",
-    "essays/drawinginvisibles1/thumb@2x.png",
     "essays/wtf-api/index.mdx",
     "essays/wtf-api/API_5.png",
-    "notes/societies-founding-myths-and-the-circular-economy.md",
-    "notes/limited-rationality.md"
+    "notes/societies-founding-myths-and-the-circular-economy.md"
   ]
 }
