@@ -13,8 +13,16 @@ growthStage: 'Seedling'
 
 Circular PSS are complex systems of stakeholders, logistical loops & market dynamics. 
 
+We need a map. 
+
 ### Visualization
 
+The maps of the Circular Economy: 
+- The butterfly model 
+- Lifecycle map 
+- Reversed logistics mapping 
+- 
 
+The circular Economy within Sustainable design. (Eco-Design to Circular design)
 
 [[everyone-is-a-circular-designer]]

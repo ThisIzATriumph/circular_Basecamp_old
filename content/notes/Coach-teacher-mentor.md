@@ -10,3 +10,12 @@ growthStage: 'Seedling'
 ---
 
 Illustrated note, what is the difference exactly?? How is it linked with the Circularity?
+
+Definition des friches 
+Directed, guided, allowed 
+
+#### Coach-Teacher-Mentor
+
+#### About crowdlearning 
+
+#### Definition of an University 

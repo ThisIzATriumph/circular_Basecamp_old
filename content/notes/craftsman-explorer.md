@@ -9,7 +9,7 @@ topics: ['Circular Economy', 'Learning']
 growthStage: 'Seedling'
 ---
 
-The Crafts(wo)man-Explorer. 
+### The Crafts(wo)man-Explorer. 
 
 Craftsmanship and exploration are two faces of the same coin. 
 

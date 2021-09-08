@@ -1,15 +1,15 @@
 {
   "main": {
-    "id": "0caff80ea10525fc",
+    "id": "45badf3d8cbb4ae2",
     "type": "split",
     "children": [
       {
-        "id": "801caa34fad66365",
+        "id": "0e5238b65937030a",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "notes/antifragile-circularity.mdx",
+            "file": "essays/antifragile-circularity/index.mdx",
             "mode": "source"
           }
         }
@@ -18,15 +18,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "37fe04d2f5829916",
+    "id": "26b74e365aeaed96",
     "type": "split",
     "children": [
       {
-        "id": "0bfa3a271493cfba",
+        "id": "2333ee7bae989d99",
         "type": "tabs",
         "children": [
           {
-            "id": "b2576715a17e9b5d",
+            "id": "8c803f3faf132b8d",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -34,26 +34,18 @@
             }
           },
           {
-            "id": "7220fabe75ccddbb",
+            "id": "d5afefb052901504",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "draft",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
-            }
-          },
-          {
-            "id": "bd0f92bcfbb456d2",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
-              "state": {}
             }
           }
         ]
@@ -63,20 +55,20 @@
     "width": 300
   },
   "right": {
-    "id": "f779bc5e31ce27d6",
+    "id": "65614d3cc0f683f3",
     "type": "split",
     "children": [
       {
-        "id": "470fe11915cf0cc7",
+        "id": "342560bd8071ede6",
         "type": "tabs",
         "children": [
           {
-            "id": "8616de7e74e0a649",
+            "id": "d5c383929388e65a",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/antifragile-circularity.mdx",
+                "file": "essays/antifragile-circularity/index.mdx",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,27 +76,6 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "60eeb29dc0d984c3",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
-            }
-          },
-          {
-            "id": "5570aaef9afea163",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "notes/antifragile-circularity.mdx"
               }
             }
           }
@@ -115,17 +86,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "801caa34fad66365",
+  "active": "0e5238b65937030a",
   "lastOpenFiles": [
+    "essays/antifragile-circularity/index.mdx",
+    "essays/drawinginvisibles1/index.mdx",
+    "essays/antifragile-circularity/Old.png",
+    "essays/antifragile-circularity/Damocles_Hydra_Phoenix_v1.jpg",
     "notes/antifragile-circularity.mdx",
-    "notes/Archive/babel.mdx",
-    "notes/Archive/data-unions.mdx",
-    "notes/Archive/contentful-gatsby.mdx",
-    "notes/Archive/bidirectionals.mdx",
-    "notes-drafts/responsive-scrollytelling.mdx",
-    "notes-drafts/scrolly-patterns.mdx",
-    "notes-drafts/solid.mdx",
-    "notes-drafts/openspacetech.mdx",
-    "notes-drafts/metaphor-books.mdx"
+    "essays/drawinginvisibles1/thumb@2x.png",
+    "essays/wtf-api/index.mdx",
+    "essays/wtf-api/API_5.png",
+    "notes/societies-founding-myths-and-the-circular-economy.md",
+    "notes/limited-rationality.md"
   ]
 }

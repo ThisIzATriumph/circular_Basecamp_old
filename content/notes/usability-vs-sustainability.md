@@ -12,6 +12,8 @@ growthStage: 'Seedling'
 People claim they want sustainable products but really they don't. 
 When sustainability comes at the cost of the best ease of use or usability they'd rather choose the highest usability. 
 
+Pyramid of Maslow : convenience over meaning 
+
 ## The niche or the system
 Designing for sustainability is setting "the cursor" of the sustainability of the  product. On the one hand, we can design very sustainable product that may be frugal by design. Users' that have an appeal for these products are ok with making concessions, having a more "spartan" product.
 
