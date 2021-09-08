@@ -14,16 +14,16 @@ Donella Meadows coined the expression of 'Dancing with systems' for the practiti
 ### Humbling experience
 As pointed by Joel de Rosnay in its book "The Macroscope" (see it in the library), the first step to any work with a system is to understand that we are an integral part of one of its supra-system. We are the cell observing the human body. 
 
-[Realize that it is much too complex for you.]
-[Realize that you need to learn]
-[Realize that by learning, you're modifying yourself and therefore the system]
+Realize that it is much too complex for you.
+Realize that you need to learn
+Realize that by learning, you're modifying yourself and therefore the system
 
 ### Lifelong learners
 
 ### The art of learning together: Crowdlearning
 
 ### Good systems dancers are good humans
-[Being bien dans tes baskets]
+Being bien dans tes baskets
 
 ### Living your humanity
-[Learning & Being the system is eventually living your humanity]
+Learning & Being the system is eventually living your humanity

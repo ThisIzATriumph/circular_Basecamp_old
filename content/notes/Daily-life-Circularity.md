@@ -26,10 +26,10 @@ We can consider the Circularity compatibility of multiple entities but two of th
 
 #### Circularity compatibility 
 Let us consider a Circular product: 
-[Pic of a circular product ]
+Pic of a circular product 
 
 And a circular company: 
-[pic of a circular company]
+pic of a circular company
 
 Circularity as a property is an abuse of the concept of the Circular Economy. The Circular Economy proposes to organize our socio-economical system to loop material flows and avoid waste. Its concept applies to an entire economy, in other words a complex system. 
 
@@ -54,7 +54,7 @@ However what they gain in precision is often lost in affordance, LCA are not int
 
 
 #### SDG mi amor
-Another sustainability scale that gained in traction for the past years is the "Sustaianble development goals" they can be seen as an attempt from the UN to outweight the [PIB].
+Another sustainability scale that gained in traction for the past years is the "Sustaianble development goals" they can be seen as an attempt from the UN to outweight the "PIB".
 
 SDG are by definition thruthful to the definition of Sustainability which includes Ecology, Economy & Society. 
 
@@ -62,7 +62,7 @@ However there is a challenge in translating SDGs into applicable objectives and 
 
 ### Reductive simplification 
 
-A numeric score will almost certainly lead to an [appauvrissement] of the concept it aims to score. While tempting, it is illusory to look for the one single score that will inform about the Sustainability or Circularity of an entity. 
+A numeric score will almost certainly lead to an "appauvrissement" of the concept it aims to score. While tempting, it is illusory to look for the one single score that will inform about the Sustainability or Circularity of an entity. 
 
 It is indeed tempting because a single score cuts down complexity and empowers us in our decision-making process. Yet every score that pretends to assess the "entire circularity or sustainability" of an entity is to be treated doubtfully. This for 2 reasons : 
 - As seen before, we don't score the circularity or sustainability of an entity but it's compatibility with a Circular or Sustainable system. 

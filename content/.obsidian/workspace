@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "essays-drafts/antifragile-circularity/index.mdx",
+            "file": "notes/usability-vs-sustainability.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "mint",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "essays-drafts/antifragile-circularity/index.mdx",
+                "file": "notes/usability-vs-sustainability.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "0e5238b65937030a",
   "lastOpenFiles": [
-    "essays/antifragile-circularity/index.mdx",
-    "essays/antifragile-circularity/thumb@2x.jpg",
-    "essays/drawinginvisibles1/index.mdx",
-    "essays/drawinginvisibles1/thumb@2x.png",
-    "essays/antifragile-circularity/Old.png",
-    "essays/antifragile-circularity/Damocles_Hydra_Phoenix_v1.jpg",
-    "notes/antifragile-circularity.mdx",
-    "essays/wtf-api/index.mdx",
-    "essays/wtf-api/API_5.png",
-    "notes/societies-founding-myths-and-the-circular-economy.md"
+    "notes/usability-vs-sustainability.md",
+    "notes/vulgarization-visualization.md",
+    "notes/limited-rationality.md",
+    "notes/societies-founding-myths-and-the-circular-economy.md",
+    "notes/daily-life-circularity.md",
+    "_private/Obsidian -Vaults/3. Resources/Mappleton/drawinginvisibles2/index.md",
+    "notes/the-mapmaker.md",
+    "notes/everyone-is-a-circular-designer.md",
+    "notes/ecosophy.md",
+    "notes/crowdlearning-the-circular-economy.md"
   ]
 }
