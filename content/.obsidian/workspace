@@ -7,8 +7,11 @@
         "id": "0e5238b65937030a",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "essays-drafts/antifragile-circularity/index.mdx",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -65,6 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "essays-drafts/antifragile-circularity/index.mdx",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,8 +88,8 @@
   },
   "active": "0e5238b65937030a",
   "lastOpenFiles": [
-    "essays/antifragile-circularity/thumb@2x.jpg",
     "essays/antifragile-circularity/index.mdx",
+    "essays/antifragile-circularity/thumb@2x.jpg",
     "essays/drawinginvisibles1/index.mdx",
     "essays/drawinginvisibles1/thumb@2x.png",
     "essays/antifragile-circularity/Old.png",
