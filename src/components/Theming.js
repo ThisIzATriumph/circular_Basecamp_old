@@ -14,6 +14,19 @@ const themes = {
       ...colors,
     },
   },
+
+  themeDark: {
+    themeName: 'themeDark',
+    colors: {
+      primary: colors.red,
+      text: colors.red,
+      bodyBg: colors.red,
+      headerBg: colors.red,
+      sidebarBg: colors.red,
+      link: colors.red,
+      ...colors,
+    },
+  },
 }
 
 const { ThemeProvider, withTheme, useTheme } = createTheming(themes.default)

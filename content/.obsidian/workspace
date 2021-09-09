@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "notes/usability-vs-sustainability.md",
+            "file": "essays/daily-life-circularity/index.mdx",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/usability-vs-sustainability.md",
+                "file": "essays/daily-life-circularity/index.mdx",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "0e5238b65937030a",
   "lastOpenFiles": [
-    "notes/usability-vs-sustainability.md",
-    "notes/vulgarization-visualization.md",
-    "notes/limited-rationality.md",
-    "notes/societies-founding-myths-and-the-circular-economy.md",
+    "essays/daily-life-circularity/index.mdx",
     "notes/daily-life-circularity.md",
-    "_private/Obsidian -Vaults/3. Resources/Mappleton/drawinginvisibles2/index.md",
-    "notes/the-mapmaker.md",
     "notes/everyone-is-a-circular-designer.md",
-    "notes/ecosophy.md",
-    "notes/crowdlearning-the-circular-economy.md"
+    "notes/crowdlearning-the-circular-economy.md",
+    "notes/craftsman-explorer.md",
+    "essays/coach-teacher-mentor/index.mdx",
+    "essays/coach-teacher-mentor/Old.png",
+    "notes/coach-teacher-mentor.md",
+    "notes/becoming-systems-dancers.md",
+    "essays/antifragile-circularity - Copy/index.mdx"
   ]
 }
