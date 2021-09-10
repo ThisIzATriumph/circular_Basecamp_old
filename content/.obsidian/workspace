@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "essays/daily-life-circularity/index.mdx",
+            "file": "books/sortir-de-la-croissance/index.mdx",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "essays/daily-life-circularity/index.mdx",
+                "file": "books/sortir-de-la-croissance/index.mdx",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "0e5238b65937030a",
   "lastOpenFiles": [
-    "essays/daily-life-circularity/index.mdx",
-    "essays/coach-teacher-mentor/index.mdx",
-    "essays/drawinginvisibles1/index.mdx",
-    "essays/building-your-backpack/index.mdx",
+    "books/sortir-de-la-croissance/index.mdx",
+    "books/manuel-de-la-grande-transition/index.mdx",
+    "books/manuel-de-la-grande-transition/grandetransition.png",
+    "books/les-pensees-de-lecologie/lespenseesdelecologie.jpg",
+    "books/les-pensees-de-lecologie/index.mdx",
+    "books/comment-tout-peut-seffondrer/themacroscope.jpg",
+    "books/comment-tout-peut-seffondrer/index.mdx",
     "essays/antifragile-circularity/index.mdx",
-    "notes/daily-life-circularity.md",
-    "notes/everyone-is-a-circular-designer.md",
-    "notes/crowdlearning-the-circular-economy.md",
-    "notes/craftsman-explorer.md",
-    "essays/coach-teacher-mentor/Old.png"
+    "essays/daily-life-circularity/index.mdx",
+    "essays/coach-teacher-mentor/index.mdx"
   ]
 }
