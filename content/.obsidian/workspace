@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "illustration/theartoftakingactions/index.mdx",
+            "file": "books/sortir-de-la-croissance/index.mdx",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "illustration/theartoftakingactions/index.mdx",
+                "file": "books/sortir-de-la-croissance/index.mdx",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +88,7 @@
   },
   "active": "0e5238b65937030a",
   "lastOpenFiles": [
+    "books/sortir-de-la-croissance/index.mdx",
     "illustration/theartoftakingactions/index.mdx",
     "illustration/theartoftakingactions/artofactions.png",
     "illustration/systemsdynamics/index.mdx",
@@ -96,7 +97,6 @@
     "illustration/onsystemsthinking/onsystemsthinking.png",
     "illustration/circulargoogle/index.mdx",
     "illustration/drawingadvice/index.mdx",
-    "illustration/drawingadvice/drawingadvice.png",
-    "illustration/systemsdynamics/gatsbythemethumb.png"
+    "illustration/drawingadvice/drawingadvice.png"
   ]
 }
