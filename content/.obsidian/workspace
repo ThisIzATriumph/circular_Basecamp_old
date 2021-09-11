@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "books/sortir-de-la-croissance/index.mdx",
+            "file": "books/grande-transition/index.mdx",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "books/sortir-de-la-croissance/index.mdx",
+                "file": "books/grande-transition/index.mdx",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "0e5238b65937030a",
   "lastOpenFiles": [
-    "books/sortir-de-la-croissance/index.mdx",
+    "books/grande-transition/index.mdx",
+    "books/grande-transition/grandetransition.png",
+    "books/sortir-de-la-croissance/growth.jpg",
+    "books/the-macroscope/index.mdx",
+    "books/the-macroscope/themacroscope.jpg",
     "books/manuel-de-la-grande-transition/index.mdx",
     "books/manuel-de-la-grande-transition/grandetransition.png",
+    "books/sortir-de-la-croissance/index.mdx",
     "books/les-pensees-de-lecologie/lespenseesdelecologie.jpg",
-    "books/les-pensees-de-lecologie/index.mdx",
-    "books/comment-tout-peut-seffondrer/themacroscope.jpg",
-    "books/comment-tout-peut-seffondrer/index.mdx",
-    "essays/antifragile-circularity/index.mdx",
-    "essays/daily-life-circularity/index.mdx",
-    "essays/coach-teacher-mentor/index.mdx"
+    "books/les-pensees-de-lecologie/index.mdx"
   ]
 }
