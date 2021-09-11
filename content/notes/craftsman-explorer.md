@@ -15,3 +15,8 @@ Craftsmanship and exploration are two faces of the same coin.
 
 Picture of an explorer cutting trees with a pen
 
+#### Curiosity-led activities 
+Craft(wo)manship and exploration are both curiosity led activities. 
+
+
+

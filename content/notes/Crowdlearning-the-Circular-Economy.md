@@ -21,3 +21,5 @@ https://www.erudit.org/fr/revues/irrodl/2014-v15-n4-irrodl04942/1065502ar/
 2. Why Crowdteaching make sense in a Circular Economy 
 	1. The complexity of developing circular systems 
 	2. Circular systems must be inclusive to work
+
+[[everyone-is-a-circular-designer]]
