@@ -112,7 +112,7 @@ const getGlobalStyles = theme => {
       border-radius: 4px;
       background-color: ${darken(0.04, theme.colors.lightOrange)};
       border: none;
-      color: ${theme.colors.darkGrey};
+      color: ${theme.colors.white};
       font-family: ${fonts.walsheim};
       padding: 8px 16px;
       cursor: pointer;
