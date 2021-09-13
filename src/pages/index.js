@@ -101,7 +101,7 @@ const SmallSectionLink = props => {
         font-size: 0.8em;
         font-family: ${fonts.walsheim};
         padding: 8px 0px;
-        border-bottom: 1px solid ${theme.colors.blue};
+        border-bottom: 1px solid ${theme.colors.orange};
         &:hover {
           color: ${theme.colors.lightOrange};
           transform: translateY(2px);

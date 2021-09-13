@@ -1,5 +1,5 @@
 ---
-title: 'Enlivement'
+title: 'Enlivenment'
 slug : enlivenment
 startupdated: 2021-09-13
 updated: 2021-09-13
