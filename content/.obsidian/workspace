@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "essays/stilts-design/index.mdx",
+            "file": "essays/growing-your-backpack/index.mdx",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "essays/stilts-design/index.mdx",
+                "file": "essays/growing-your-backpack/index.mdx",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "0e5238b65937030a",
   "lastOpenFiles": [
+    "essays/building-your-backpack/index.mdx",
+    "notes/against-dualism 1.md",
+    "notes/against-dualism.md",
     "essays/stilts-design/index.mdx",
     "notes/exploration-craftsmanship 1.md",
     "notes/exploration-craftmanship.md",
     "notes/complexity 1.md",
     "notes/complexity.md",
-    "notes/against-dualism.md",
     "notes/stories.md",
-    "notes/resilience.md",
-    "notes/grammaire-fauve.md",
-    "notes/the-mapmaker.md"
+    "notes/resilience.md"
   ]
 }
