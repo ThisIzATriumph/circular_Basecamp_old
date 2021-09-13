@@ -133,10 +133,7 @@ const AboutPage = () => {
         <div className="header">
           <div className="headerText">
             <h1>Baptiste Sené</h1>
-            <h2>
-              Circular economy cartographer, Design Engineer & occasional
-              sherpa.
-            </h2>
+            <h2>Circular economy mapmaker & Design Engineer.</h2>
             <p>
               I sit at the intersection of design, engineering, and
               storytelling. These three are at the core of everything I make.

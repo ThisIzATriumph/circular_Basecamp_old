@@ -54,7 +54,7 @@ const Header = () => {
                 transition: 550ms;
                 opacity: 30%;
                 &:hover {
-                  color: ${theme.colors.blue};
+                  color: ${theme.colors.orange};
                   transform: scale(1.05);
                   opacity: 100%;
                 }
@@ -76,7 +76,7 @@ const Header = () => {
                 margin-left: 16px;
                 margin-right: 16px;
                 :hover {
-                  color: ${theme.colors.orange};
+                  color: ${theme.colors.lightOrange};
                   transition: 0.5s;
                 }
               }
