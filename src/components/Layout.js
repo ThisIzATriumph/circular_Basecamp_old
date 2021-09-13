@@ -20,7 +20,8 @@ const getGlobalStyles = theme => {
     min-height: 100vh;
     background-image: linear-gradient(180deg, ${theme.colors.darkGrey} 0%, ${
     theme.colors.darkGrey
-  } 88%, ${theme.colors.black} 100%);}
+  } 88%, ${theme.colors.black} 100%);
+    }
     &::selection {
       color: ${theme.colors.white};
       background-color: ${theme.colors.primary};
@@ -111,7 +112,7 @@ const getGlobalStyles = theme => {
       border-radius: 4px;
       background-color: ${darken(0.04, theme.colors.lightOrange)};
       border: none;
-      color: ${theme.colors.white};
+      color: ${theme.colors.darkGrey};
       font-family: ${fonts.walsheim};
       padding: 8px 16px;
       cursor: pointer;
