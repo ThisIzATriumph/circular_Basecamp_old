@@ -185,7 +185,7 @@ export default ({
 }) => {
   const initializeTheme = () => {
     if (typeof window !== 'undefined') {
-      return localStorage.getItem('theme') || 'themeDark'
+      return localStorage.getItem('theme') || 'default'
     } else {
       return 'default'
     }

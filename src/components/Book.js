@@ -55,7 +55,7 @@ export const Book = props => {
         <h4
           css={css`
             font-family: ${fonts.regularSansBold};
-            color: ${theme.colors.darkGrey};
+            color: ${theme.colors.lightGrey};
             font-weight: 200;
             margin-top: 1em;
             margin-bottom: ${rhythm(0.2)};
