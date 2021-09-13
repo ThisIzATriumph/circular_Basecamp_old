@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "notes/enlivenment.md",
+            "file": "notes/against-dualism.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/enlivenment.md",
+                "file": "notes/against-dualism.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +88,7 @@
   },
   "active": "0e5238b65937030a",
   "lastOpenFiles": [
+    "notes/enlivenment 1.md",
     "notes/enlivenment.md",
     "notes/ecosophy.md",
     "notes/craftsman-explorer.md",
@@ -96,7 +97,6 @@
     "notes/gaia.md",
     "notes/limited-rationality.md",
     "notes/resilience.md",
-    "notes/stories 1.md",
-    "notes/stories.md"
+    "notes/stories 1.md"
   ]
 }

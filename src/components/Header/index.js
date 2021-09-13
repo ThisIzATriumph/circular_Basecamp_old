@@ -76,7 +76,7 @@ const Header = () => {
                 margin-left: 16px;
                 margin-right: 16px;
                 :hover {
-                  color: ${theme.colors.lightOrange};
+                  color: ${theme.colors.orange};
                   transition: 0.5s;
                 }
               }
