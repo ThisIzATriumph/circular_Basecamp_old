@@ -9,6 +9,14 @@ topics: ['Systems', 'Illustrated Notes', 'Circular Economy', 'Personal developme
 growthStage: 'Budding'
 ---
 
+Art, happiness, consciousness, duty, State, inconsciousness, justice, language, freedom, nature, reason, religion, science, technique, time, work & truth. Those are the 17 topics through which Philosophy is taught in French high-schools. 
+
+In those teachings Ecology is either forgotten or treated as a niche, part of the notion of Nature. 
+
+Ecology however, has a lot to bring to classical Phylosophy. It can invest & modify the meaning of well established notions such as life, societies, relationships & nature. It can also bring new ones to light such as ecosystems, Gaia, disaster & care etc. 
+
+Ecosophy is this result.
+
 Arne Naess, deep ecology and ecosophy. 
 
 What ecology brings to philosophy. (end or the ecology book)

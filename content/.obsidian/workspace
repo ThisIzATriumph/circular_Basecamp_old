@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "notes/usability-vs-sustainability.md",
+            "file": "notes/enlivenment.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/usability-vs-sustainability.md",
+                "file": "notes/enlivenment.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "0e5238b65937030a",
   "lastOpenFiles": [
-    "notes/usability-vs-sustainability.md",
-    "notes/limited-rationality.md",
-    "notes/everyone-is-a-circular-designer.md",
+    "notes/enlivenment.md",
     "notes/ecosophy.md",
     "notes/craftsman-explorer.md",
     "notes/becoming-systems-dancers.md",
-    "notes/crowdlearning-the-circular-economy.md",
-    "books/sortir-de-la-croissance/index.mdx",
-    "illustration/theartoftakingactions/index.mdx",
-    "illustration/theartoftakingactions/artofactions.png"
+    "notes/everyone-is-a-circular-designer.md",
+    "notes/gaia.md",
+    "notes/limited-rationality.md",
+    "notes/resilience.md",
+    "notes/stories 1.md",
+    "notes/stories.md"
   ]
 }

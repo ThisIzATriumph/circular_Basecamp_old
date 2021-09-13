@@ -20,8 +20,7 @@ const getGlobalStyles = theme => {
     min-height: 100vh;
     background-image: linear-gradient(180deg, ${theme.colors.darkGrey} 0%, ${
     theme.colors.darkGrey
-  } 88%, ${theme.colors.black} 100%);
-    }
+  } 88%, ${theme.colors.black} 100%);}
     &::selection {
       color: ${theme.colors.white};
       background-color: ${theme.colors.primary};
