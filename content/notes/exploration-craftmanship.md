@@ -1,8 +1,8 @@
 ---
-title: 'The Crafts(wo)man-Explorer'
+title: 'Exploration & Craftmanship'
 slug: craftsman-explorer
 startupdated: 2021-05-30
-updated: 2021-05-30
+updated: 2021-09-11
 published: true
 type: ['note']
 topics: ['Circular Economy', 'Learning']
