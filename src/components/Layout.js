@@ -27,12 +27,12 @@ const getGlobalStyles = theme => {
       background-color: ${theme.colors.primary};
     }
     a {
-      color: ${theme.colors.lightOrange};
+      color: ${theme.colors.orange};
       transition: 0.4s;
       text-decoration: none;
       &:hover,
       &:focus {
-        color: ${theme.colors.orange};
+        color: ${theme.colors.lightOrange};
       }
     }
     h1,
@@ -42,10 +42,10 @@ const getGlobalStyles = theme => {
     h5,
     h6 {
       a {
-        color: ${theme.colors.darkBlue};
+        color: ${theme.colors.orange};
         &:hover,
         &:focus {
-          color: ${theme.colors.orange};
+          color: ${theme.colors.lightOrange};
         }
       }
     }
