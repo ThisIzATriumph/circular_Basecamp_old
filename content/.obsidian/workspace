@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "notes/exploration-craftsmanship.md",
+            "file": "essays/stilts-design/index.mdx",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/exploration-craftsmanship.md",
+                "file": "essays/stilts-design/index.mdx",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +88,8 @@
   },
   "active": "0e5238b65937030a",
   "lastOpenFiles": [
+    "essays/stilts-design/index.mdx",
+    "notes/exploration-craftsmanship 1.md",
     "notes/exploration-craftmanship.md",
     "notes/complexity 1.md",
     "notes/complexity.md",
@@ -95,8 +97,6 @@
     "notes/stories.md",
     "notes/resilience.md",
     "notes/grammaire-fauve.md",
-    "notes/the-mapmaker.md",
-    "notes/usability-vs-sustainability.md",
-    "essays/building-your-backpack/index.mdx"
+    "notes/the-mapmaker.md"
   ]
 }
