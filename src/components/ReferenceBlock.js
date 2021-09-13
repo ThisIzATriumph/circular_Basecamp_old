@@ -21,19 +21,20 @@ export const ReferenceItem = ({ pageTitle, pageLink, excerpt }) => {
           background: 'white',
           transition: '500ms',
           ':hover': {
-          transform: 'scale(1.015)',
-          boxShadow: '0 10px 30px -10px rgba(0,0,0,0.15)'
-        },
+            transform: 'scale(1.015)',
+            boxShadow: '0 10px 30px -10px rgba(0,0,0,0.15)',
+          },
           h4: {
             margin: '0.4em 0 0.8em',
             fontFamily: fonts.walsheimLight,
             letterSpacing: '0',
             fontSize: '1.1em',
+            color: theme.colors.lightOrange,
           },
           p: {
             lineHeight: '1.3em',
-            fontSize: '1.05em'
-          }
+            fontSize: '1.05em',
+          },
         })}
       >
         <h4>{pageTitle}</h4>
@@ -47,34 +48,31 @@ export const ReferenceBlock = ({ references }) => {
   const theme = useTheme()
   return (
     <>
-    <div
-      css={css({
-        borderTop: `1px solid ${theme.colors.lightestGrey}`,
-        paddingTop: '3em',
-        margin: '4em auto 3em',
-        maxWidth: '880px',
-        gridColumn: '1/4',
-        h5: {
-          textAlign: 'center',
-          textTransform: 'uppercase',
-          letterSpacing: '0.1em',
-          fontSize: '1em',
-          fontWeight: 'bold'
-        },
-        '.innerBlock': {
-          display: 'flex',
-          flexDirection: 'row',
-          flexWrap: 'wrap',
-          justifyContent: 'center',
-        }
-      })}
-    >
-    <h5>Linked References</h5>
-    <div className="innerBlock">
-    {references}
-    </div>
-      
-    </div>
+      <div
+        css={css({
+          borderTop: `1px solid ${theme.colors.lightestGrey}`,
+          paddingTop: '3em',
+          margin: '4em auto 3em',
+          maxWidth: '880px',
+          gridColumn: '1/4',
+          h5: {
+            textAlign: 'center',
+            textTransform: 'uppercase',
+            letterSpacing: '0.1em',
+            fontSize: '1em',
+            fontWeight: 'bold',
+          },
+          '.innerBlock': {
+            display: 'flex',
+            flexDirection: 'row',
+            flexWrap: 'wrap',
+            justifyContent: 'center',
+          },
+        })}
+      >
+        <h5>Linked References</h5>
+        <div className="innerBlock">{references}</div>
+      </div>
     </>
   )
 }
