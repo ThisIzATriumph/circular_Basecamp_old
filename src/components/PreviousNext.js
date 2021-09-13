@@ -26,10 +26,10 @@ const PreviousNext = props => {
           }
           &:hover {
             h4 {
-              color: ${theme.colors.black};
+              color: ${theme.colors.lightGrey};
             }
             svg {
-              fill: ${theme.colors.black};
+              fill: ${theme.colors.lightGrey};
               transform: scale(1.2);
             }
           }

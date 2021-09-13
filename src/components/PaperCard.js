@@ -12,7 +12,10 @@ import paperTwo from './paperTwo.svg'
 export const PaperCard = props => {
   const theme = useTheme()
   return (
-      <Link to={ props.redirectTo ? `/${props.redirectTo}` : `/${props.slug}`}  aria-label={`View ${props.title}`}>
+    <Link
+      to={props.redirectTo ? `/${props.redirectTo}` : `/${props.slug}`}
+      aria-label={`View ${props.title}`}
+    >
       <div
         key={props.id}
         css={css`
@@ -39,26 +42,30 @@ export const PaperCard = props => {
               display: block;
           }
             h4 {
-              color: ${theme.colors.darkGrey};
+              color: ${theme.colors.lightGrey};
             }
           }
         `}
       >
-        {Math.floor(Math.random() * Math.floor(10))%2 == 0 ? <img alt='paper icon' src={paperOne} /> : <img alt='paper icon' src={paperTwo} /> }
+        {Math.floor(Math.random() * Math.floor(10)) % 2 == 0 ? (
+          <img alt="paper icon" src={paperOne} />
+        ) : (
+          <img alt="paper icon" src={paperTwo} />
+        )}
         <div className="details">
-        <h4
-          css={css`
-            font-family: ${fonts.regularSansBold};
-            color: ${theme.colors.darkGrey};
-            font-weight: 200;
-            margin-top: 1em;
-            margin-bottom: ${rhythm(0.2)};
-            transition: all 700ms ease;
-          `}
-        >
-          {props.title}
-        </h4>
-        <h6>{props.author}</h6>
+          <h4
+            css={css`
+              font-family: ${fonts.regularSansBold};
+              color: ${theme.colors.darkGrey};
+              font-weight: 200;
+              margin-top: 1em;
+              margin-bottom: ${rhythm(0.2)};
+              transition: all 700ms ease;
+            `}
+          >
+            {props.title}
+          </h4>
+          <h6>{props.author}</h6>
         </div>
       </div>
     </Link>
