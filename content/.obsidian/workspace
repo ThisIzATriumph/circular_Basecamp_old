@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "notes/against-dualism.md",
+            "file": "notes/exploration-craftsmanship.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/against-dualism.md",
+                "file": "notes/exploration-craftsmanship.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "0e5238b65937030a",
   "lastOpenFiles": [
+    "notes/exploration-craftmanship.md",
+    "notes/complexity 1.md",
+    "notes/complexity.md",
     "notes/against-dualism.md",
     "notes/stories.md",
     "notes/resilience.md",
     "notes/grammaire-fauve.md",
     "notes/the-mapmaker.md",
     "notes/usability-vs-sustainability.md",
-    "essays/building-your-backpack/index.mdx",
-    "notes/Archive/building-your-backpack.md",
-    "notes/gaia.md",
-    "notes/exploration-craftmanship 1.md"
+    "essays/building-your-backpack/index.mdx"
   ]
 }

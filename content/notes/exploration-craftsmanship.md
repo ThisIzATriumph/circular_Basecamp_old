@@ -1,6 +1,6 @@
 ---
-title: 'Exploration & Craftmanship'
-slug: craftsman-explorer
+title: 'Exploration & Craftsmanship'
+slug: exploration-craftsmanship
 startupdated: 2021-05-30
 updated: 2021-09-11
 published: true
