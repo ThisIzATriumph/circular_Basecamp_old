@@ -27,7 +27,7 @@ const getGlobalStyles = theme => {
       background-color: ${theme.colors.primary};
     }
     a {
-      color: ${theme.colors.blue};
+      color: ${theme.colors.lightOrange};
       transition: 0.4s;
       text-decoration: none;
       &:hover,
@@ -112,7 +112,7 @@ const getGlobalStyles = theme => {
       border-radius: 4px;
       background-color: ${darken(0.04, theme.colors.lightOrange)};
       border: none;
-      color: ${theme.colors.white};
+      color: ${theme.colors.darkGrey};
       font-family: ${fonts.walsheim};
       padding: 8px 16px;
       cursor: pointer;

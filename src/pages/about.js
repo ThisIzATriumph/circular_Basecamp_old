@@ -209,7 +209,7 @@ const AboutPage = () => {
             })}
           </div>
 
-          <div>
+          {/* <div>
             <a href="/faq">
               <div className="faqBlock">
                 <h2>
@@ -224,7 +224,7 @@ const AboutPage = () => {
                 <h4>I have a recommended resources page</h4>
               </div>
             </a>
-          </div>
+          </div> */}
         </section>
       </Container>
     </Layout>
