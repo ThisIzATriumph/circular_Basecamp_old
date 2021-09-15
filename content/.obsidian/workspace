@@ -7,10 +7,9 @@
         "id": "0e5238b65937030a",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "image",
           "state": {
-            "file": "essays/stilts-design/index.mdx",
-            "mode": "source"
+            "file": "essays/growing-your-backpack/thumb@2x.png"
           }
         }
       }
@@ -68,7 +67,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "essays/stilts-design/index.mdx",
+                "file": "essays/growing-your-backpack/thumb@2x.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +87,15 @@
   },
   "active": "0e5238b65937030a",
   "lastOpenFiles": [
+    "essays/growing-your-backpack/thumb@2x (1).png",
+    "papers/sustainable-design-guidelines/index.mdx",
+    "papers/mindful-body/index.mdx",
+    "antibooks/sustainable-energy-without-the-hot-air/index.mdx",
+    "antibooks/sustainable-energy-without-the-hot-air/hotair.png",
+    "antibooks/sustainability-without-the-hot-air/index.mdx",
+    "antibooks/sustainability-without-the-hot-air/affective.jpg",
+    "essays/what-is-circular-basecamp/index.mdx",
     "essays/stilts-design/index.mdx",
-    "essays/building-your-backpack/index.mdx",
-    "notes/against-dualism 1.md",
-    "notes/against-dualism.md",
-    "notes/exploration-craftsmanship 1.md",
-    "notes/exploration-craftmanship.md",
-    "notes/complexity 1.md",
-    "notes/complexity.md",
-    "notes/stories.md",
-    "notes/resilience.md"
+    "essays/stilts-design/thumb@2x.png"
   ]
 }
