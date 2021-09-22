@@ -21,11 +21,11 @@ Ecology however, has a lot to bring to classical Phylosophy. It can invest & mod
 
 Ecosophy is this result.
 
-Arne Naess, deep ecology and ecosophy. 
+### The cult of reason 
+
+The authority of reason & rationality are questioned by the thoughts of Ecology, which invites to conceive human intelligence in a broader perspective that includes relationship, animality & emotion. Ecology offers new doubts, a cure of humility, new amazements to Philosophy.
 
 What ecology brings to philosophy. (end or the ecology book)
-
-### The cult of reason 
 
 #### The one equation 
 
@@ -33,11 +33,13 @@ Trying to summarize the whole universe with one single equation.
 
 ### Intuition-backed reason
 
+Pablo-servigne (Collapsology)
+
 #### Complex systems design is timely 
 
 An entire analysis takes a lot of time and can easily be criticized. 
 
-Instead we propose to reason in order of scales backed up by intuition. 
+Instead we propose to reason in order of scales backed up by **intuition**. 
 
 #### Sustainability at scales through circular design 
 Achieve sustainability in order of scales, f.e. we know that a certain change in the system will lead to waste reduction. We choose to implement it. 

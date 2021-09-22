@@ -48,3 +48,14 @@ Ecology is a science of singular beings and not of universal equations, a scienc
 <p  style={{ textAlign: 'center' }}> We would compound the Cartesian epistemological error if we ignored (or forgot) that the world already has its own stories. Deborah Bird Rose, *Towards ecological humanities* (2004)</p>
 
 </SimpleCard>
+
+<SimpleCard width="700px">
+
+<p  style={{ textAlign: 'center' }}> Dans un inventaire saisissant de ses gouts litteraires, Emmay Bovary declare: "j'adore les histoires qui se suivent tout d'une haleine, ou l'on a peur. Je deteste les heros communs, et les sentiments temperes. Comme il y en a dans la nature."
+
+"Communs ? " "Temperes" Comment la Nature en est elle venue a etre associee a de tels mots?
+	
+*Domesticated imagination* Amitav Ghosh (2016)</p>
+
+</SimpleCard>
+

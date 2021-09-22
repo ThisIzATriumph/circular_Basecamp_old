@@ -7,9 +7,10 @@
         "id": "0e5238b65937030a",
         "type": "leaf",
         "state": {
-          "type": "image",
+          "type": "markdown",
           "state": {
-            "file": "essays/growing-your-backpack/thumb@2x.png"
+            "file": "essays/what-is-circular-basecamp/index.mdx",
+            "mode": "source"
           }
         }
       }
@@ -67,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "essays/growing-your-backpack/thumb@2x.png",
+                "file": "essays/what-is-circular-basecamp/index.mdx",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,15 +88,15 @@
   },
   "active": "0e5238b65937030a",
   "lastOpenFiles": [
-    "essays/growing-your-backpack/thumb@2x (1).png",
-    "papers/sustainable-design-guidelines/index.mdx",
-    "papers/mindful-body/index.mdx",
-    "antibooks/sustainable-energy-without-the-hot-air/index.mdx",
-    "antibooks/sustainable-energy-without-the-hot-air/hotair.png",
-    "antibooks/sustainability-without-the-hot-air/index.mdx",
-    "antibooks/sustainability-without-the-hot-air/affective.jpg",
     "essays/what-is-circular-basecamp/index.mdx",
+    "essays/what-is-circular-basecamp/thumb@2x (1).png",
+    "notes/complexity.md",
+    "notes/deep-ecology.md",
+    "notes/ecosophy.md",
+    "essays/coach-teacher-mentor/index.mdx",
+    "essays/growing-your-backpack/index.mdx",
     "essays/stilts-design/index.mdx",
-    "essays/stilts-design/thumb@2x.png"
+    "essays/daily-life-circularity/index.mdx",
+    "notes/stories.md"
   ]
 }
