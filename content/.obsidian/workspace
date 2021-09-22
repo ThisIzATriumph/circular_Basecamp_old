@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "essays/what-is-circular-basecamp/index.mdx",
+            "file": "notes/becoming-systems-dancers.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "mint",
+                "query": "craftsman",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -48,7 +48,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -68,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "essays/what-is-circular-basecamp/index.mdx",
+                "file": "notes/becoming-systems-dancers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +89,15 @@
   },
   "active": "0e5238b65937030a",
   "lastOpenFiles": [
-    "essays/what-is-circular-basecamp/index.mdx",
-    "essays/what-is-circular-basecamp/thumb@2x (1).png",
+    "notes/becoming-systems-dancers.md",
+    "notes/usability-vs-sustainability.md",
+    "notes/exploration-craftsmanship.md",
+    "notes/everyone-is-a-circular-designer.md",
+    "notes/against-dualism.md",
+    "notes/buen-vivir.md",
     "notes/complexity.md",
     "notes/deep-ecology.md",
     "notes/ecosophy.md",
-    "essays/coach-teacher-mentor/index.mdx",
-    "essays/growing-your-backpack/index.mdx",
-    "essays/stilts-design/index.mdx",
-    "essays/daily-life-circularity/index.mdx",
-    "notes/stories.md"
+    "notes/enlivenment.md"
   ]
 }

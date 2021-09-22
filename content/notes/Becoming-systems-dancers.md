@@ -20,7 +20,7 @@ Realize that by learning, you're modifying yourself and therefore the system
 
 ### Lifelong learners
 
-As pointed in the [[craftsman-explorer]] seed, the application of the Circular Economy is still to be discovered in its many ways. This requires us to be attuned to the new ways of implementing it. There won't be a single way of circular living. 
+As pointed in the [[exploration-craftsmanship]] seed, the application of the Circular Economy is still to be discovered in its many ways. This requires us to be attuned to the new ways of implementing it. There won't be a single way of circular living. 
 
 For that reasons, system dancers will need to remain lifelong learners and take with them this lesson of humility in every milestone of their journey. 
 
