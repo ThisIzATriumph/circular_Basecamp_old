@@ -11,7 +11,7 @@ growthStage: 'Budding'
 
 <SimpleCard width="700px">
 
-<p  style={{ textAlign: 'center' }}> Art, happiness, consciousness, duty, State, inconsciousness, justice, language, freedom, nature, reason, religion, science, technique, time, work & truth. Those are the 17 topics through which Philosophy is taught in French high-schools. 
+<p> Art, happiness, consciousness, duty, State, inconsciousness, justice, language, freedom, nature, reason, religion, science, technique, time, work & truth. Those are the 17 topics through which Philosophy is taught in French high-schools. 
 
 In those teachings Ecology is either forgotten or treated as a niche, part of the notion of Nature. 
 

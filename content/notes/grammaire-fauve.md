@@ -13,7 +13,7 @@ growthStage: 'Seedling'
 
 <SimpleCard width="700px">
 
-<p  style={{ textAlign: 'center' }}> I would not have every man nor every part of a man cultivated, any more than I would have every acre of earth cultivated: part will be tillage, but the greater part will be meadow and forest, not only serving an immediate use, but preparing a mould against a distant future, by the annual decay of the vegetation which it supports. 
+<p> I would not have every man nor every part of a man cultivated, any more than I would have every acre of earth cultivated: part will be tillage, but the greater part will be meadow and forest, not only serving an immediate use, but preparing a mould against a distant future, by the annual decay of the vegetation which it supports. 
 	
 There are other letters for the child to learn than those which Cadmus invented. The Spaniards have a good term to express this wild and dusky knowledge--Gramatica parda--tawny grammar, a kind of mother-wit derived from that same leopard to which I have referred. 
 	

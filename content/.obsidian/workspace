@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "essays/coach-teacher-mentor/index.mdx",
+            "file": "notes/against-dualism.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "essays/coach-teacher-mentor/index.mdx",
+                "file": "notes/against-dualism.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "0e5238b65937030a",
   "lastOpenFiles": [
-    "essays/coach-teacher-mentor/index.mdx",
-    "essays/growing-your-backpack/index.mdx",
-    "essays/what-is-circular-basecamp/index.mdx",
-    "essays/antifragile-circularity/index.mdx",
-    "essays/what-is-circular-basecamp/Basecamp.jpg",
-    "essays-drafts/Untitled.md",
-    "antibooks/sustainable-energy-without-the-hot-air/index.mdx",
-    "antibooks/sustainable-energy-without-the-hot-air/hotair.png",
-    "antibooks-drafts/art-of-game-design/index.mdx",
-    "antibooks-drafts/being-alive/beingalive.jpg"
+    "notes/against-dualism.md",
+    "notes/becoming-systems-dancers.md",
+    "notes/usability-vs-sustainability.md",
+    "notes/the-mapmaker.md",
+    "notes/sustainability.md",
+    "notes/stories.md",
+    "notes/resilience.md",
+    "notes/mesology.md",
+    "notes/limited-rationality.md",
+    "notes/grammaire-fauve.md"
   ]
 }

@@ -19,8 +19,6 @@ growthStage: 'Budding'
 
 </SimpleCard>
 
-Space
-
 <SimpleCard width="700px">
 
 <p  style={{ textAlign: 'center' }}> The first attitude, a quasi-religious quietism, is typified by "deep ecology," antihumanism, and sociobiology, while the second, an activist approach, is typified by the liberal and Marx_ ian image of an omniscient humanity cast in a commandeering posture toward the natural world. Modern science-despite its claims to value-free objectivity-unwittingly takes on an ethical mantle when it commits itself to a concept of nature as com_ prehensible, as orderly in the sense that nature's "laws'" are rationally explicable and basically necessitarian. The ancient Greeks viewed this orderly structure of the natural world as evidence of a cosmic *nous* or *logos* that produced a subjective presence in natural phenomena as a whole. Yet with only a minimal shift in emphasis, this same notion of an orderly nature can yield the dismal conclusion that "freedom is the recognition of necessity'" (to use Friedrich Engels's rephrasing of Hegel's definition). In this latter case, freedom is subtly turned into its opposite: the mere consciousness of what we can or cannot do. 
@@ -29,8 +27,6 @@ Space
 
 </SimpleCard>
 
-Space
-
 <SimpleCard width="700px">
 
 <p  style={{ textAlign: 'center' }}> "This much is clear: the way we view our position in the natural world is deeply entangled with the way we organize the social world.
@@ -38,8 +34,6 @@ Space
 	"Murray Bookchin - *The Philosophy of Social Ecology* (1996)"</p>
 
 </SimpleCard>
-
-Space
 
 <SimpleCard width="700px">
 
