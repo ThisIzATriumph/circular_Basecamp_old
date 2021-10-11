@@ -13,7 +13,7 @@ growthStage: 'Budding'
 
 <SimpleCard width="700px">
 
-<p}> I'm talking about life stories, because every living being tells a story, a story that *understands* the ones of whom she needs to live & die with. Therefore the orchid, which *understood* the male bee by adopting the assets of what the flower imagine to be the female bee. [...]
+<p> I'm talking about life stories, because every living being tells a story, a story that *understands* the ones of whom she needs to live & die with. Therefore the orchid, which *understood* the male bee by adopting the assets of what the flower imagine to be the female bee. [...]
 
 Stories aren't just telling something, they are making worlds exist & invite us to *understand* them. [...]
 
