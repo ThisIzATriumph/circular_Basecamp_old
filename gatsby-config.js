@@ -235,7 +235,7 @@ module.exports = {
       },
     },
     {
-      resolve: `@aengusm/gatsby-theme-brain2`,
+      resolve: `@aengusm/gatsby-theme-brain`,
       options: {
         mdxOtherwiseConfigured: true,
         toolsDirectory: `content/tools/`,
