@@ -8,8 +8,8 @@ import { TwitterShareButton } from 'react-share'
 
 export const ReplyOnTwitter = ({ pageSlug, tweetText, children }) => {
 
-    let twitterHandle = 'mappletons'
-    let url=`http://maggieappleton.com/garden/${pageSlug}`
+    let twitterHandle = 'senebapt'
+    let url=`http://circularbasecamp.com/garden/${pageSlug}`
 
   return (
     <SimpleCard
