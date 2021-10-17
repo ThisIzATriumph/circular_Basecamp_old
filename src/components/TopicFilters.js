@@ -14,3 +14,16 @@ export const getTopicsFromNotes = (noteNodes) =>
       topicFilters: uniq([...topics.topicFilters, ...newTopics])
     }
   }, {growthFilters: [], topicFilters: []})
+
+  export const getTopicsFromTools = (toolNodes) => 
+  toolNodes.reduce((topics, {node: tool}) => {
+    const newGrowth = get(tool, 'childMarkdownRemark.frontmatter.growthStage', 'Seedling')
+    let newTopics = get(tool, 'childMarkdownRemark.frontmatter.topics', [])
+    if(!newTopics || !isArray(newTopics)){
+      newTopics = []
+    }
+    return {
+      growthFilters: uniq([...topics.growthFilters, newGrowth]),
+      topicFilters: uniq([...topics.topicFilters, ...newTopics])
+    }
+  }, {growthFilters: [], topicFilters: []})

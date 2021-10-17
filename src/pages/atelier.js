@@ -7,7 +7,7 @@ import { useTheme } from 'components/Theming'
 import { fonts } from '../lib/typography'
 import Container from 'components/Container'
 import { graphql } from 'gatsby'
-import { getTopicsFromNotes } from 'components/TopicFilters'
+import { getTopicsFromTools } from 'components/TopicFilters'
 import SimpleCard from '../components/SimpleCard'
 import { bpMaxSM } from '../lib/breakpoints'
 import get from 'lodash/get'
@@ -15,12 +15,12 @@ import includes from 'lodash/includes'
 import isEmpty from 'lodash/isEmpty'
 import some from 'lodash/some'
 
-const AtelierPage = ({ data: { site, notesQuery } }) => {
+const AtelierPage = ({ data: { site, toolsQuery } }) => {
   // Set theme
   const theme = useTheme()
 
   // Set up topic and growthStage filters
-  const filters = getTopicsFromNotes(notesQuery.edges)
+  const filters = getTopicsFromTools(toolsQuery.edges)
   const [activeFilters, setActiveFilters] = React.useState([])
 
   // Handle filter
@@ -45,7 +45,7 @@ const AtelierPage = ({ data: { site, notesQuery } }) => {
     setActiveFilters(newActiveFilters)
   }
 
-  const displayedNotes = notesQuery.edges.filter(({ node: note }) => {
+  const displayedTools = toolsQuery.edges.filter(({ node: tool }) => {
     const matchesBoth = activeFilters.reduce(
       (acc, current) => {
         return {
@@ -58,9 +58,9 @@ const AtelierPage = ({ data: { site, notesQuery } }) => {
 
     const matchesGrowth = includes(
       activeFilters,
-      note.childMarkdownRemark.frontmatter.growthStage,
+      tool.childMarkdownRemark.frontmatter.growthStage,
     )
-    const matchesTopic = some(note.childMarkdownRemark.frontmatter.topics, t =>
+    const matchesTopic = some(tool.childMarkdownRemark.frontmatter.topics, t =>
       includes(activeFilters, t),
     )
 
@@ -117,7 +117,7 @@ const AtelierPage = ({ data: { site, notesQuery } }) => {
               justify-content: center;
             }
           }
-          .notesGrid {
+          .toolsGrid {
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
@@ -220,19 +220,19 @@ const AtelierPage = ({ data: { site, notesQuery } }) => {
           </div>
         </div>
 
-        {/* ------------ Notes Section ------------------ */}
+        {/* ------------ Tools Section ------------------ */}
 
-        <section className="notes">
-          <div className="notesGrid">
-            {displayedNotes.map(({ node: note }) => (
+        <section className="tools">
+          <div className="toolsGrid">
+            {displayedTools.map(({ node: tool }) => (
               <Link
-                to={`/${note.childMarkdownRemark.frontmatter.slug}`}
-                aria-label={`View ${note.title}`}
+                to={`/${tool.childMarkdownRemark.frontmatter.slug}`}
+                aria-label={`View ${tool.title}`}
               >
                 <SimpleCard
                   margintop="0em"
                   marginbottom="0em"
-                  key={note.id}
+                  key={tool.id}
                   hover
                   css={css`
                     width: 270px;
@@ -279,13 +279,13 @@ const AtelierPage = ({ data: { site, notesQuery } }) => {
                     }
                   `}
                 >
-                  <h4>{note.title}</h4>
+                  <h4>{tool.title}</h4>
                   <div className="metadata">
                     <h6 className="updated">
-                      {note.childMarkdownRemark.frontmatter.updated}
+                      {tool.childMarkdownRemark.frontmatter.updated}
                     </h6>
                     <span>
-                      {note.childMarkdownRemark.frontmatter.growthStage ===
+                      {tool.childMarkdownRemark.frontmatter.growthStage ===
                       'Seedling' ? (
                         <h6 className="growthStage">
                           {' '}
@@ -295,7 +295,7 @@ const AtelierPage = ({ data: { site, notesQuery } }) => {
                           </span>
                         </h6>
                       ) : null}
-                      {note.childMarkdownRemark.frontmatter.growthStage ===
+                      {tool.childMarkdownRemark.frontmatter.growthStage ===
                       'Budding' ? (
                         <h6 className="growthStage">
                           {' '}
@@ -305,7 +305,7 @@ const AtelierPage = ({ data: { site, notesQuery } }) => {
                           </span>{' '}
                         </h6>
                       ) : null}
-                      {note.childMarkdownRemark.frontmatter.growthStage ===
+                      {tool.childMarkdownRemark.frontmatter.growthStage ===
                       'Evergreen' ? (
                         <h6 className="growthStage">
                           {' '}
@@ -338,7 +338,7 @@ export const AtelierPageQuery = graphql`
       }
     }
 
-    notesQuery: allBrainNote(
+    toolsQuery: allBrainTool(
       sort: { order: DESC, fields: childMarkdownRemark___frontmatter___updated }
     ) {
       edges {

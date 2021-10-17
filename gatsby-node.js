@@ -43,6 +43,32 @@ exports.createPages = ({ actions, graphql }) => {
         }
       }
 
+      toolsQuery: allMdx(
+        filter: {
+          frontmatter: { type: { eq: "tool" }, published: { ne: false } }
+        }
+        sort: { order: DESC, fields: frontmatter___updated }
+      ) {
+        edges {
+          node {
+            id
+            parent {
+              ... on File {
+                name
+                sourceInstanceName
+              }
+            }
+            excerpt(pruneLength: 250)
+            fields {
+              title
+              slug
+              updated
+              growthStage
+            }
+          }
+        }
+      }
+
       essaysQuery: allMdx(
         filter: {
           frontmatter: { type: { eq: "essay" }, published: { ne: false } }
