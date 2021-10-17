@@ -140,7 +140,7 @@ const TitleSectionLink = props => {
 // ------- // Main Section // ---------- //
 
 export default function Index({
-  data: { site, bookQuery, illustrationQuery, essaysQuery, notesQuery },
+  data: { site, bookQuery, illustrationQuery, essaysQuery, notesQuery, toolsQuery },
 }) {
   const theme = useTheme()
   return (
