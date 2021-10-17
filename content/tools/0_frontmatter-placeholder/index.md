@@ -1,5 +1,5 @@
 ---
-slug: invisible-post
+slug: invisible-post2
 updated: 2019-01-01
 title: 'this post is a ghost'
 subtitle: 'this isnt a subtitle'
