@@ -382,3 +382,114 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
     })
   }
 }
+
+exports.onCreateNode = ({ node, getNode, actions }) => {
+  const { createNodeField } = actions
+  
+  if (
+    node.internal.type === `Mdx` &&
+    !_.get(node, 'frontmatter.type', []).includes('tool')
+  ) {
+    const parent = getNode(node.parent)
+    if (_.isUndefined(parent.name)) {
+      return
+    }
+    const titleSlugged = _.join(_.drop(parent.name.split('-'), 3), '-')
+    const slug =
+      parent.sourceInstanceName === 'legacy'
+        ? `tools/${node.frontmatter.updated
+            .split('T')[0]
+            .replace(/-/g, '/')}/${titleSlugged}`
+        : node.frontmatter.slug || titleSlugged
+
+    createNodeField({
+      name: 'id',
+      node,
+      value: node.id,
+    })
+
+    createNodeField({
+      name: 'published',
+      node,
+      value: node.frontmatter.published,
+    })
+
+    createNodeField({
+      name: 'title',
+      node,
+      value: node.frontmatter.title,
+    })
+
+    createNodeField({
+      name: 'subtitle',
+      node,
+      value: node.frontmatter.subtitle,
+    })
+
+    createNodeField({
+      name: 'description',
+      node,
+      value: node.frontmatter.description,
+    })
+
+    createNodeField({
+      name: 'slug',
+      node,
+      value: slug,
+    })
+
+    createNodeField({
+      name: 'url',
+      node,
+      value: node.frontmatter.url,
+    })
+
+    createNodeField({
+      name: 'updated',
+      node,
+      value: node.frontmatter.updated ? node.frontmatter.updated.split(' ')[0] : '',
+    })
+
+    createNodeField({
+      name: 'cover',
+      node,
+      value: node.frontmatter.cover,
+    })
+
+    createNodeField({
+      name: 'type',
+      node,
+      value: node.frontmatter.type || [],
+    })
+
+    createNodeField({
+      name: 'topics',
+      node,
+      value: node.frontmatter.topics || [],
+    })
+
+    createNodeField({
+      name: 'redirects',
+      node,
+      value: node.frontmatter.redirects,
+    })
+
+    createNodeField({
+      name: 'redirectTo',
+      node,
+      value: node.frontmatter.redirectTo,
+    })
+
+    createNodeField({
+      name: 'isPost',
+      node,
+      value: true,
+    })
+
+    createNodeField({
+      name: 'growthStage',
+      node,
+      value: node.frontmatter.growthStage,
+    })
+  }
+}
