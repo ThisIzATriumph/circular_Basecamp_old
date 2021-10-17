@@ -7,7 +7,7 @@ export default () => {
       <Link to="/garden" aria-label="View notes and essays page">
         Digital Garden
       </Link>
-      <Link to="/essays" aria-label="View essays page">
+      <Link to="/essays" aria-label="View peaks page">
         Essays
       </Link>
       <Link to="/illustration" aria-label="View sketchnoting page">
