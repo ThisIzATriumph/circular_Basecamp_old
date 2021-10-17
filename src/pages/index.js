@@ -551,7 +551,7 @@ export const pageQuery = graphql`
       }
     }
 
-    notesQuery: allBrainTool(
+    toolsQuery: allBrainTool(
       sort: { order: DESC, fields: childMarkdownRemark___frontmatter___updated }
       limit: 6
     ) {
