@@ -338,7 +338,7 @@ export const AtelierPageQuery = graphql`
       }
     }
 
-    toolsQuery: allBrainTool(
+    toolsQuery: allBrainNote(
       sort: { order: DESC, fields: childMarkdownRemark___frontmatter___updated }
     ) {
       edges {
