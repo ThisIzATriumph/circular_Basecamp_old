@@ -338,7 +338,10 @@ export const AtelierPageQuery = graphql`
       }
     }
 
-    toolsQuery: allBrainNote(
+    toolsQuery: allMdx(
+      filter: {
+        frontmatter: { type: { eq: "tool" }, published: { ne: false } }
+      }
       sort: { order: DESC, fields: childMarkdownRemark___frontmatter___updated }
     ) {
       edges {
