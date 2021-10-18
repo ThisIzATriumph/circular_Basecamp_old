@@ -7,9 +7,9 @@ export default props => {
   return <BrainNote note={props.data.brainNote} />
 }
 
-export default props => {
-  return <BrainTool tool={props.data.brainTool} />
-}
+// export default props => {
+//   return <BrainTool tool={props.data.brainTool} />
+// }
 
 export const query = graphql`
   query BrainNoteWithRefsBySlug($slug: String!) {
