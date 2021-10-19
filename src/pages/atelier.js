@@ -26,7 +26,7 @@ const ToolPage = ({ data: { site, toolsQuery } }) => {
               margin-bottom: 0.4em;
             }
           }
-          .toolsGrid {
+          .essaysGrid {
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
@@ -43,8 +43,8 @@ const ToolPage = ({ data: { site, toolsQuery } }) => {
         {/* ----------- Essays Section ----------- */}
 
         <section>
-          <div className="toolsGrid">
-            {toolsQuery.edges.map(({ node: tool }) => (
+          <div className="essaysGrid">
+            {essaysQuery.edges.map(({ node: tool }) => (
               <Link
                 to={`/${tool.frontmatter.slug}`}
                 aria-label={`View ${tool.frontmatter.title}`}
