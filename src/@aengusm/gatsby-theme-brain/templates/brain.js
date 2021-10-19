@@ -30,7 +30,7 @@ export const query = graphql`
         slug
         childMdx {
           excerpt(pruneLength: 200)
-        } 
+        }
       }
       outboundReferenceNotes {
         title

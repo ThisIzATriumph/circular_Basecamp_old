@@ -4,11 +4,12 @@ import { useStaticQuery, graphql } from 'gatsby'
 import 'tippy.js/animations/shift-away.css'
 import Note from '../../../components/Note'
 import components from '../../../components/mdx'
-import { ReferenceBlock, ReferenceItem } from '../../../components/ReferenceBlock'
-
+import {
+  ReferenceBlock,
+  ReferenceItem,
+} from '../../../components/ReferenceBlock'
 
 const BrainNote = ({ note }) => {
-
   //GraphQL Query
   const { site } = useStaticQuery(graphql`
     query BrainNoteStaticQuery {
@@ -25,15 +26,21 @@ const BrainNote = ({ note }) => {
     }
   `)
 
-    //Declare the references array and the references block
+  //Declare the references array and the references block
   let references = []
   let referenceBlock
 
   // If the inbound note (eg. notes that point TO this note) is NOT null, map each inbound note's contents to a list item that links to the source and shows a preview of the HTML. This list item is assigned to the variable "references"
   //These are the notes that will show up in the references block
-      // Turn this into a component
+  // Turn this into a component
   if (note.inboundReferenceNotes != null) {
-    references = note.inboundReferenceNotes.map(ref => (<ReferenceItem pageLink={ref.slug} pageTitle={ref.title} excerpt={ref.childMdx.excerpt} />))
+    references = note.inboundReferenceNotes.map(ref => (
+      <ReferenceItem
+        pageLink={ref.slug}
+        pageTitle={ref.title}
+        excerpt={ref.childMdx.excerpt}
+      />
+    ))
 
     // If the number of inbound reference notes is longer than 0 list items, render a Reference Block.
     // Turn this into a component
@@ -46,14 +53,16 @@ const BrainNote = ({ note }) => {
   const bidirectionallinkpreviews = {}
 
   // If there are outbound reference notes (notes this note it pointing to), filter each note. Find the title, slug, and excerpt and map it to a preview component
-   // Turn this into a component
+  // Turn this into a component
   if (note.outboundReferenceNotes) {
     note.outboundReferenceNotes
       .filter(reference => !!reference.childMdx.excerpt)
       .forEach((ln, i) => {
         bidirectionallinkpreviews[ln.slug] = (
           <div style={{ padding: '1em 0.6em' }} id={ln.slug}>
-            <h2 style={{ margin: '0 0 0.4em 0', fontSize: '1.66em' }}>{ln.title}</h2>
+            <h2 style={{ margin: '0 0 0.4em 0', fontSize: '1.66em' }}>
+              {ln.title}
+            </h2>
             <p>{ln.childMdx.excerpt}</p>
           </div>
         )
@@ -69,7 +78,7 @@ const BrainNote = ({ note }) => {
   )
 
   return (
-    <MDXProvider components={{...components, a: TippyLinkWithPreviews }}>
+    <MDXProvider components={{ ...components, a: TippyLinkWithPreviews }}>
       <Note referenceBlock={referenceBlock} note={note} site={site} />
     </MDXProvider>
   )

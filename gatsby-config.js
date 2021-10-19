@@ -40,13 +40,6 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        path: `${__dirname}/content/tools`,
-        name: 'Tools',
-      },
-    },
-    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
@@ -230,15 +223,6 @@ module.exports = {
       options: {
         mdxOtherwiseConfigured: true,
         notesDirectory: `content/notes/`,
-        rootPath: `/`,
-        hideDoubleBrackets: true,
-      },
-    },
-    {
-      resolve: `@aengusm/gatsby-theme-brain`,
-      options: {
-        mdxOtherwiseConfigured: true,
-        toolsDirectory: `content/tools/`,
         rootPath: `/`,
         hideDoubleBrackets: true,
       },

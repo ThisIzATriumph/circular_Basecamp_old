@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "essays/coach-teacher-mentor/index.mdx",
+            "file": "notes/against-dualism.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "essays/coach-teacher-mentor/index.mdx",
+                "file": "notes/against-dualism.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,11 +88,11 @@
   },
   "active": "0e5238b65937030a",
   "lastOpenFiles": [
+    "notes/against-dualism.md",
     "essays/coach-teacher-mentor/index.mdx",
     "notes/expansion-equilibrium.md",
     "notes/buen-vivir.md",
     "notes/against-dualism 1.md",
-    "notes/against-dualism.md",
     "essays/circular-economy-101/index.mdx",
     "essays/what-is-circular-basecamp/index.mdx",
     "essays/growing-your-backpack/index.mdx",
