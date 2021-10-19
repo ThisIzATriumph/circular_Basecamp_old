@@ -1,6 +1,6 @@
 ---
 title: 'Against Dualism'
-slug : against-dualism-tool
+slug: against-dualism-tool
 startupdated: 2021-09-13
 updated: 2021-09-13
 published: true

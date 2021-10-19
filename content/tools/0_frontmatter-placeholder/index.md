@@ -6,7 +6,7 @@ subtitle: 'this isnt a subtitle'
 cover: null
 description: 'this post has all of the right fields'
 growthStage: seeding
-type: ['test']
+type: ['tool']
 topics: ['test']
 published: false
 author: 'author'

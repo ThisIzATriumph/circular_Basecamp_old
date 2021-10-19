@@ -171,7 +171,6 @@ exports.createPages = ({ actions, graphql }) => {
           }
         }
       }
-
     }
   `).then(({ data, errors }) => {
     if (errors) {
@@ -255,8 +254,6 @@ exports.createPages = ({ actions, graphql }) => {
         },
       })
     })
-
-
   })
 }
 
@@ -274,7 +271,7 @@ exports.onCreateWebpackConfig = ({ actions }) => {
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions
-  
+
   if (
     node.internal.type === `Mdx` &&
     !_.get(node, 'frontmatter.type', []).includes('note')
@@ -336,7 +333,9 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
     createNodeField({
       name: 'updated',
       node,
-      value: node.frontmatter.updated ? node.frontmatter.updated.split(' ')[0] : '',
+      value: node.frontmatter.updated
+        ? node.frontmatter.updated.split(' ')[0]
+        : '',
     })
 
     createNodeField({
@@ -385,7 +384,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions
-  
+
   if (
     node.internal.type === `Mdx` &&
     !_.get(node, 'frontmatter.type', []).includes('tool')
@@ -447,7 +446,9 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
     createNodeField({
       name: 'updated',
       node,
-      value: node.frontmatter.updated ? node.frontmatter.updated.split(' ')[0] : '',
+      value: node.frontmatter.updated
+        ? node.frontmatter.updated.split(' ')[0]
+        : '',
     })
 
     createNodeField({

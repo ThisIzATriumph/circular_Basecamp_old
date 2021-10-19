@@ -11,7 +11,7 @@ export const query = graphql`
     site {
       ...site
     }
-    brainNote(slug: { eq: $slug }) {
+    brainTool(slug: { eq: $slug }) {
       slug
       title
       childMdx {
@@ -30,7 +30,7 @@ export const query = graphql`
         slug
         childMdx {
           excerpt(pruneLength: 200)
-        } 
+        }
       }
       outboundReferenceNotes {
         title

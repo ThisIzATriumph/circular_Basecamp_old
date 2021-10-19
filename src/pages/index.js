@@ -551,6 +551,25 @@ export const pageQuery = graphql`
       }
     }
 
+    toolsQuery: allBrainTool(
+      sort: { order: DESC, fields: childMarkdownRemark___frontmatter___updated }
+      limit: 6
+    ) {
+      edges {
+        node {
+          id
+          title
+          childMarkdownRemark {
+            frontmatter {
+              slug
+              growthStage
+              updated(formatString: "MMM DD, YYYY")
+            }
+          }
+        }
+      }
+    }
+
     essaysQuery: allMdx(
       filter: {
         frontmatter: { type: { eq: "essay" }, published: { ne: false } }
