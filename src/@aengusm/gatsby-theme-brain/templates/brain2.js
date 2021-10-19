@@ -1,13 +1,13 @@
 import React from 'react'
 import { graphql } from 'gatsby'
-import BrainNote from '../components/BrainNote'
+import BrainTool from '../components/BrainTool'
 
 export default props => {
-  return <BrainNote note={props.data.brainNote} />
+  return <BrainTool tool={props.data.brainTool} />
 }
 
 export const query = graphql`
-  query BrainNoteWithRefsBySlug($slug: String!) {
+  query BrainToolWithRefsBySlug($slug: String!) {
     site {
       ...site
     }

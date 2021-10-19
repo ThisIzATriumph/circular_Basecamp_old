@@ -338,7 +338,7 @@ export const AtelierPageQuery = graphql`
       }
     }
 
-    toolsQuery: allMdx(
+    toolsQuery: allBrainTool(
       filter: {
         frontmatter: { type: { eq: "tool" }, published: { ne: false } }
       }
