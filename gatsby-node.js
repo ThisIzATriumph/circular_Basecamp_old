@@ -66,7 +66,30 @@ exports.createPages = ({ actions, graphql }) => {
           }
         }
       }
-
+      toolsQuery: allMdx(
+        filter: {
+          frontmatter: { type: { eq: "tool" }, published: { ne: false } }
+        }
+        sort: { order: DESC, fields: frontmatter___updated }
+      ) {
+        edges {
+          node {
+            id
+            parent {
+              ... on File {
+                name
+                sourceInstanceName
+              }
+            }
+            excerpt(pruneLength: 250)
+            fields {
+              title
+              slug
+              updated
+            }
+          }
+        }
+      }
       illustrationQuery: allMdx(
         filter: {
           frontmatter: {
@@ -171,6 +194,22 @@ exports.createPages = ({ actions, graphql }) => {
       createPage({
         path: node.fields.slug,
         component: path.resolve('./src/templates/essayTemplate.js'),
+        context: {
+          id: node.id,
+          prevPage,
+          nextPage,
+        },
+      })
+    })
+
+    data.toolsQuery.edges.forEach(({ node }, i) => {
+      const { edges } = data.toolsQuery
+      const prevPage = i === 0 ? null : edges[i - 1].node
+      const nextPage = i === edges.length - 1 ? null : edges[i + 1].node
+      pageRedirects(node)
+      createPage({
+        path: node.fields.slug,
+        component: path.resolve('./src/templates/toolTemplate.js'),
         context: {
           id: node.id,
           prevPage,
