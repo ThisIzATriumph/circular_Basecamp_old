@@ -36,11 +36,14 @@ const ToolPage = ({ data: { site, toolsQuery } }) => {
         `}
       >
         <section className="header">
-          <h1>Essays</h1>
-          <p>Coherent thoughts in essay format, almost always illustrated.</p>
+          <h1>Circular Atelier</h1>
+          <p>
+            The atelier of the Basecamp where backpacks are crafted and everyone
+            gears up.
+          </p>
         </section>
 
-        {/* ----------- Essays Section ----------- */}
+        {/* ----------- Tools Section ----------- */}
 
         <section>
           <div className="toolsGrid">
