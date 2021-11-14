@@ -38,8 +38,8 @@ const ToolPage = ({ data: { site, toolsQuery } }) => {
         <section className="header">
           <h1>Circular Atelier</h1>
           <p>
-            The atelier of the Basecamp where backpacks are crafted and everyone
-            gears up.
+            The atelier of the Basecamp is where one finds tools & craft
+            backpacks.
           </p>
         </section>
 
