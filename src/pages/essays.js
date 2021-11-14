@@ -36,8 +36,11 @@ const EssaysPage = ({ data: { site, essaysQuery } }) => {
         `}
       >
         <section className="header">
-          <h1>Peaks</h1>
-          <p>Coherent thoughts in essay format, almost always illustrated.</p>
+          <h1>Viewpoints</h1>
+          <p>
+            Takes on the Circularity practice in essay format, almost always
+            illustrated.
+          </p>
         </section>
 
         {/* ----------- Essays Section ----------- */}
