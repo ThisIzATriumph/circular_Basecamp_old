@@ -1,0 +1,72 @@
+---
+title: 'Daily life Circularity'
+slug: daily-life-circularity
+startupdated: 2021-04-26
+updated: 2021-04-26
+published: true
+type: ['note']
+topics: ['Education', 'Illustrated Notes', 'Circular Economy']
+growthStage: 'Budding'
+---
+
+### Circular Economy everywhere 
+
+What are the examples of the circular economy that you can find around you?
+
+Would the spread of the Circular Economy and Sustainability in general be helped if every product surrounding us had a "Circularity Score"? 
+
+Food & Beverages brands are painfully slowly accepting to score their products from A to F following the nutri-score scale, would a similar scale be possible for Circularity? And for Sustainability in general? 
+
+### Scoring Circularity 
+Scoring the circularity of a product is not a small challenge. Scientists are still debating about the exact definition of the Circular Economy and about what can & can't be part of it. The "Re-Economy" is filled with re-concepts such as Re-use, Refurbishment, Remanufacturing, Repurposing and so on. With that landscape, applying a circularity score is a real challenge and asks for some clarifications. 
+
+
+#### What are we scoring 
+We can consider the Circularity compatibility of multiple entities but two of them will be most interesting : the products and the companies. 
+
+#### Circularity compatibility 
+Let us consider a Circular product: 
+[Pic of a circular product ]
+
+And a circular company: 
+[pic of a circular company]
+
+Circularity as a property is an abuse of the concept of the Circular Economy. The Circular Economy proposes to organize our socio-economical system to loop material flows and avoid waste. Its concept applies to an entire economy, in other words a complex system. 
+
+Therefore, talking about Circular products or companies is a shortcut to address entities which are **compatible** with circular dynamics. 
+
+A circular product is designed to be reused, repaired, refurbished etc. 
+A circular company integrated circular principles into its activities to promote material looping and prevent waste. 
+
+### Main circular scoring models 
+#### Products
+#### Companies 
+
+### Scoring sustainability 
+#### Holy LCA 
+When it comes to sustainable impact assessment, LCA (LifeCycle Assessment) stands as the trusted reference methodology. 
+
+In short, LCAs consist in gathering data about the product's lifecycle and assessing the impact (in term of waste or emission) of it. Scoping an LCA is highly critical and can be done "horizontally" (What part of the lifecycle is considered, from raw material extraction to end-of-life) or vertically (do we consider the product "only" or do we expand the scope to the tools used to manufacture it and the co-products/waste created while manufacturing it).
+
+LCAs can be seen as dissection tools of Sustainability scoring methodologies, they are very precise and meant to be thorough. 
+
+However what they gain in precision is often lost in affordance, LCA are not intuitive and must be studied to be fully understood. They also rely on "preferences" when it comes to the expression of emissions. 
+
+
+#### SDG mi amor
+Another sustainability scale that gained in traction for the past years is the "Sustaianble development goals" they can be seen as an attempt from the UN to outweight the [PIB].
+
+SDG are by definition thruthful to the definition of Sustainability which includes Ecology, Economy & Society. 
+
+However there is a challenge in translating SDGs into applicable objectives and similar to the results of LCAs, their affordance is low. 
+
+### Reductive simplification 
+
+A numeric score will almost certainly lead to an [appauvrissement] of the concept it aims to score. While tempting, it is illusory to look for the one single score that will inform about the Sustainability or Circularity of an entity. 
+
+It is indeed tempting because a single score cuts down complexity and empowers us in our decision-making process. Yet every score that pretends to assess the "entire circularity or sustainability" of an entity is to be treated doubtfully. This for 2 reasons : 
+- As seen before, we don't score the circularity or sustainability of an entity but it's compatibility with a Circular or Sustainable system. 
+- A score would then be the aggregate of multiple indicators (i.e for circularity we could consider repair rate, recycled content, recyclability rate etc.) with a ponderation. The ponderation would vary based on the interests/priorities of the scoring organization and the specificities of the system observed. 
+
+In other words, a product designed to be repaired could be considered very circular if matched with repairing infrastructures in country A while country B would see it as less circular because of the lack of such infrastuctures. 
+

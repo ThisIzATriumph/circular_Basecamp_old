@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "notes/against-dualism.md",
+            "file": "essays/what-is-circular-basecamp/index.mdx",
             "mode": "source"
           }
         }
@@ -18,15 +18,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "26b74e365aeaed96",
+    "id": "d33e253b2fae53bd",
     "type": "split",
     "children": [
       {
-        "id": "2333ee7bae989d99",
+        "id": "d578246c4615ac13",
         "type": "tabs",
         "children": [
           {
-            "id": "8c803f3faf132b8d",
+            "id": "d1bd7e0f59f42144",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "d5afefb052901504",
+            "id": "29eaf72aae8d2d1e",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "vinciane",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -55,20 +55,20 @@
     "width": 300
   },
   "right": {
-    "id": "65614d3cc0f683f3",
+    "id": "f44926d0f6f3551b",
     "type": "split",
     "children": [
       {
-        "id": "342560bd8071ede6",
+        "id": "e77a0f133f0e4ef2",
         "type": "tabs",
         "children": [
           {
-            "id": "d5c383929388e65a",
+            "id": "2f8e9341cc2212d6",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/against-dualism.md",
+                "file": "essays/what-is-circular-basecamp/index.mdx",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "0e5238b65937030a",
   "lastOpenFiles": [
-    "notes/against-dualism.md",
-    "essays/coach-teacher-mentor/index.mdx",
-    "notes/expansion-equilibrium.md",
-    "notes/buen-vivir.md",
-    "notes/against-dualism 1.md",
-    "essays/circular-economy-101/index.mdx",
     "essays/what-is-circular-basecamp/index.mdx",
     "essays/growing-your-backpack/index.mdx",
-    "essays/antifragile-circularity/index.mdx",
-    "notes/sustainability.md"
+    "tools/butterfly-model/thumb@2x.png",
+    "tools/butterfly-model/index.mdx",
+    "tools/9R/index.mdx",
+    "tools/9R/thumb@2x.png",
+    "tools/value-hill/index.mdx",
+    "tools/value-hill/thumb@2x.png",
+    "notes/ecosophy.md",
+    "notes/daily-life-circularity.md"
   ]
 }
