@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "essays/what-is-circular-basecamp/index.mdx",
+            "file": "essays/circular-economy-101/index.mdx",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "antifragile",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "essays/what-is-circular-basecamp/index.mdx",
+                "file": "essays/circular-economy-101/index.mdx",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "0e5238b65937030a",
   "lastOpenFiles": [
+    "essays/circular-economy-101/index.mdx",
     "essays/what-is-circular-basecamp/index.mdx",
-    "essays/growing-your-backpack/index.mdx",
-    "tools/butterfly-model/thumb@2x.png",
-    "tools/butterfly-model/index.mdx",
-    "tools/9R/index.mdx",
-    "tools/9R/thumb@2x.png",
-    "tools/value-hill/index.mdx",
-    "tools/value-hill/thumb@2x.png",
-    "notes/ecosophy.md",
-    "notes/daily-life-circularity.md"
+    "essays/what-is-circular-basecamp/thumb@2x.png",
+    "essays/circular-economy-101/thumb@2x.png",
+    "notes/becoming-systems-dancers.md",
+    "notes/coach-teacher-mentor.md",
+    "notes/antifragile-circularity.mdx",
+    "essays-drafts/coach-teacher-mentor/index.mdx",
+    "essays-drafts/coach-teacher-mentor/thumb@2x.png",
+    "essays-drafts/antifragile-circularity/index.mdx"
   ]
 }
