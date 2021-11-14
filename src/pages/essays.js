@@ -56,7 +56,7 @@ const EssaysPage = ({ data: { site, essaysQuery } }) => {
                   key={essay.id}
                   css={css`
                     font-family: ${fonts.regularSans};
-                    max-width: 350px;
+                    width: 300px;
                     margin-bottom: 1em;
                     margin-right: 1em;
                     padding: 0.6em 1.4em 1.6em 1.4em;
