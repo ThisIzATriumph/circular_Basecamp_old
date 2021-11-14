@@ -10,8 +10,8 @@ export default () => {
       <Link to="/atelier" aria-label="View atelier page">
         Atelier
       </Link>
-      <Link to="/essays" aria-label="View peaks page">
-        Peaks
+      <Link to="/essays" aria-label="View viewpoints page">
+        Viewpoints
       </Link>
       <Link to="/illustration" aria-label="View sketchnoting page">
         Sketchnoting
