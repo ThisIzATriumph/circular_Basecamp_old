@@ -32,7 +32,7 @@ const getGlobalStyles = theme => {
       text-decoration: none;
       &:hover,
       &:focus {
-        color: ${theme.colors.lightOrange};
+        color: ${theme.colors.orange};
       }
     }
     h1,

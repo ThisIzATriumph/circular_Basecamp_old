@@ -129,7 +129,7 @@ const TipLink = ({ noTip, children, href, ...other }) => {
       <a
         css={css({
           display: 'inline-block',
-          color: `${theme.colors.blue}`,
+          color: `${theme.colors.lightBlue}`,
           lineHeight: '1em',
           transition: 'all 0.5s ease',
           ':hover, :focus': {
@@ -152,7 +152,7 @@ const TipLink = ({ noTip, children, href, ...other }) => {
     <a
       css={css({
         display: 'inline-block',
-        color: `${theme.colors.blue}`,
+        color: `${theme.colors.lightBlue}`,
         borderRadius: '3px',
         lineHeight: '1em',
         transition: 'all 0.6s ease',

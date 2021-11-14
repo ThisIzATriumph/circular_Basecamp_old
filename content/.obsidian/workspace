@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "essays/what-is-circular-basecamp/index.mdx",
+            "file": "essays/EXECUTION/index.mdx",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "essays/what-is-circular-basecamp/index.mdx",
+                "file": "essays/EXECUTION/index.mdx",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,12 +88,12 @@
   },
   "active": "0e5238b65937030a",
   "lastOpenFiles": [
-    "essays/what-is-circular-basecamp/index.mdx",
-    "essays/circular-economy-101/index.mdx",
     "essays/EXECUTION/index.mdx",
-    "essays/circular-economy-101/thumb@2x.png",
     "essays/SYSTEM DESIGN/index.mdx",
     "essays/VISION/index.mdx",
+    "essays/what-is-circular-basecamp/index.mdx",
+    "essays/circular-economy-101/index.mdx",
+    "essays/circular-economy-101/thumb@2x.png",
     "essays/growing-your-backpack/index.mdx",
     "essays-drafts/basb/index.mdx",
     "essays-drafts/basb/thumb@2x.png",
