@@ -7,10 +7,9 @@
         "id": "0e5238b65937030a",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "image",
           "state": {
-            "file": "essays/circular-economy-101/index.mdx",
-            "mode": "source"
+            "file": "essays-drafts/basb/thumb@2x.png"
           }
         }
       }
@@ -68,7 +67,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "essays/circular-economy-101/index.mdx",
+                "file": "essays-drafts/basb/thumb@2x.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +87,15 @@
   },
   "active": "0e5238b65937030a",
   "lastOpenFiles": [
+    "essays-drafts/basb/thumb@2x.png",
     "essays/circular-economy-101/index.mdx",
+    "essays/circular-economy-101/thumb@2x.png",
     "essays/what-is-circular-basecamp/index.mdx",
     "essays/what-is-circular-basecamp/thumb@2x.png",
-    "essays/circular-economy-101/thumb@2x.png",
     "notes/becoming-systems-dancers.md",
     "notes/coach-teacher-mentor.md",
     "notes/antifragile-circularity.mdx",
     "essays-drafts/coach-teacher-mentor/index.mdx",
-    "essays-drafts/coach-teacher-mentor/thumb@2x.png",
-    "essays-drafts/antifragile-circularity/index.mdx"
+    "essays-drafts/coach-teacher-mentor/thumb@2x.png"
   ]
 }
