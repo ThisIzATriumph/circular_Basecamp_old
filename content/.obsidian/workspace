@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "notes/against-dualism.md",
+            "file": "notes/complexity.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/against-dualism.md",
+                "file": "notes/complexity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "0e5238b65937030a",
   "lastOpenFiles": [
+    "notes/complexity.md",
+    "notes/buen-vivir.md",
+    "notes/becoming-systems-dancers.md",
+    "notes/antifragile-circularity.mdx",
     "notes/against-dualism.md",
-    "notes/sustainability.md",
-    "notes/the-mapmaker.md",
-    "notes/usability-vs-sustainability.md",
-    "notes/stories.md",
-    "notes/resilience.md",
-    "notes/mesology.md",
-    "notes/limited-rationality.md",
-    "notes/grammaire-fauve.md",
-    "notes/gaia.md"
+    "notes/Archive/00_Ref-for-Editing.md",
+    "notes/Archive/Maggie's/tracking-humanity.mdx",
+    "notes/Archive/Maggie's/anthropology-react.mdx",
+    "notes/Archive/Maggie's/advancedjs.mdx",
+    "notes/daily-life-circularity.md"
   ]
 }

@@ -19,3 +19,4 @@ The <a href="https://www.rust-lang.org/">Rust programming language</a> keeps win
 
 ---
 
+<Footnote idName={1}>There now exists an iPhone application where you too can track Franklin’s thirteen prescribed virtues over the course of your day.</Footnote>
