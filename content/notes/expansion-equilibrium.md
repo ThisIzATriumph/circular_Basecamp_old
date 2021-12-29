@@ -1,6 +1,6 @@
 ---
 title: 'Age of Expansion < Age of Equilibrium'
-slug : exapansion-equilibrium
+slug : expansion-equilibrium
 startupdated: 2021-10-17
 updated: 2021-10-17
 published: true
@@ -9,3 +9,4 @@ topics: ['Ecosophy']
 growthStage: 'Budding'
 ---
 
+Moving away from an "all growth" model and start valuing holistic equilibrium. 

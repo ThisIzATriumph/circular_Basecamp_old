@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "notes/deep-ecology.md",
+            "file": "tools/butterfly-model/index.mdx",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "antifragile",
+                "query": "equilibrium",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/deep-ecology.md",
+                "file": "tools/butterfly-model/index.mdx",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "0e5238b65937030a",
   "lastOpenFiles": [
+    "tools/butterfly-model/index.mdx",
+    "tools/value-hill/index.mdx",
+    "tools/9R/index.mdx",
+    "tools/9R/thumb@2x.png",
+    "tools/butterfly-model/thumb@2x.png",
     "notes/deep-ecology.md",
     "notes/daily-life-circularity.md",
     "notes/crowdlearning-the-circular-economy.md",
-    "notes/Archive/craftsman-explorer.md",
     "notes/complexity.md",
-    "notes/Archive/coach-teacher-mentor 1.md",
-    "notes/becoming-systems-dancers.md",
-    "notes/DIY-learning.md",
-    "notes/buen-vivir.md",
-    "notes/antifragile-circularity.mdx"
+    "notes/Archive/everyone-is-a-circular-designer.md"
   ]
 }
