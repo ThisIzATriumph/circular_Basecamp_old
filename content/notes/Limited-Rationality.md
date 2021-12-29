@@ -11,16 +11,9 @@ growthStage: 'Seedling'
 
 # Being rationale in your own bubble of perception
 
-Ajouter article Grand-Pa
+### Societies are build upon common myths
 
-### A critique of rationality 
-Linking to the ecosophy
-
-### Societies are build upon common myths (Harari)
-
-#### The tree of knowledge
-
-##### Extrait résumé de SAPIENS de Yuval Noah HARARI p 31
+##### Summarized excerpt of SAPIENS from Yuval Noah HARARI
 
 Harari, in his book SAPIENS gives an explanation of the creation of our societies based on the capacity for abstraction of the Sapiens race, a capacity which has enabled it to supplant all other races.  Its explanation deserves a closer look because it structures all of our current societies.
 
@@ -61,3 +54,6 @@ Harari, in his book SAPIENS gives an explanation of the creation of our societie
 The Circular economy offers a founding myth that can bind societies together. 
 
 #### One future of sustainability 
+
+### A critique of rationality 
+See also : <a href="/ecosophy">"Ecosophy"</a>

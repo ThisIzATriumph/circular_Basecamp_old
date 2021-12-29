@@ -9,7 +9,7 @@ topics: ['Ecosophy']
 growthStage: 'Budding'
 ---
 
-<SimpleCard width="900px">
+<SimpleCard width="700px">
 
 <p> "The existence and importance of the ecological self are easy to illustrate with some examples of what has happened in my own country, Norway. The scattered human habitation along the Arctic coast of Norway is uneconomic and unprofi table, from the point of view of the current economic policy of our welfare state. The welfare norms require that every family should have a connection by telephone (in case of illness). This costs a considerable amount of money. The same holds for mail and other services. Local fisheries are largely uneconomic perhaps because a foreign armada of big trawlers of immense capacity is fishing just outside the fjords. The availability of jobs was decreasing in the mid-1980s. 
 	

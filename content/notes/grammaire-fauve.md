@@ -23,6 +23,4 @@ My desire for knowledge is intermittent, but my desire to bathe my head in atmos
 
 </SimpleCard>
 
-Going from Knowledge is power to Ignorance is power. 
-
-A link with the article on building your backpack.
+Going from "Knowledge is power" to "Ignorance is power". 

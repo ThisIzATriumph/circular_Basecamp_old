@@ -12,6 +12,7 @@ growthStage: 'Budding'
 ### Improving your own resilience
 
 Hegel 'justifying" private property:
+
 <SimpleCard width="700px">
 
 <p  style={{ textAlign: 'center' }}> A person has the right to put his will into absolutely anything and thereby make it his own, for this thing has no end in itself and derives its destiny and its soul from its own will. Such is the absolute right of appropriation that man has over all "things". </p>

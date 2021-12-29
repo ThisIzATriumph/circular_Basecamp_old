@@ -25,4 +25,3 @@ The maps of the Circular Economy:
 
 The circular Economy within Sustainable design. (Eco-Design to Circular design)
 
-[[everyone-is-a-circular-designer]]
