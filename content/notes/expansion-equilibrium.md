@@ -8,5 +8,6 @@ type: ['note']
 topics: ['Ecosophy']
 growthStage: 'Budding'
 ---
+<Draft />
 
 Moving away from an "all growth" model and start valuing holistic equilibrium. 

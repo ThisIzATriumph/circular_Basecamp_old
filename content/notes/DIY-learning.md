@@ -9,9 +9,13 @@ topics: ['Systems', 'Illustrated Notes', 'Circular Economy', 'Personal developme
 growthStage: 'Budding'
 ---
 
+<Draft />
+
 In this post: 
 - Learn to build your own Personal Knowledge Base! (Miro)
 - Can you create an empty template/board that people can replicate to start leaning by themselves?
+
+---
 
 #### Cal Newport - A world without emails - *p125*
  **A key insight preached in Carpenter’s book is the need to involve those who are affected by a new work procedure in the design of that procedure. His staff wrote 98 percent of the procedures currently in place and had a “heavy hand” in shaping the remaining 2 percent that Carpenter created himself.** 

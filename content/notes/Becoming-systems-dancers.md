@@ -9,6 +9,8 @@ topics: ['Systems', 'Illustrated Notes', 'Circular Economy', 'Personal developme
 growthStage: 'Budding'
 ---
 
+<Draft />
+
 Donella Meadows coined the expression of 'Dancing with systems' for the practitioners of Systems thinking. The systems thinkers & designers who would know and respect the complexity lying before them. 
 
 ### Humbling experience

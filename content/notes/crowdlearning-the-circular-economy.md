@@ -8,6 +8,7 @@ type: ['note']
 topics: ['Circular Economy', 'Learning']
 growthStage: 'Seedling'
 ---
+<Draft />
 
 Crowdlearning the concepts of the Circular Economy. 
 

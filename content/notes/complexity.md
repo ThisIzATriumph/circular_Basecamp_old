@@ -19,17 +19,15 @@ From : https://english.stackexchange.com/a/10461
 
 ### Is the world magical?
 
-<SimpleCard width="700px">
-
-<p> "Forest spirit, miracles, mysteries ... For many human communities, the world is magical - if only because the experience is full of unexplained phenomena.
+"Forest spirit, miracles, mysteries ... For many human communities, the world is magical - if only because the experience is full of unexplained phenomena.
 
 One of the main postulates of modern science is, on the contrary, that nature is devoid of mystery, and that all that is natural is understandable, and will one day be understood.
 
 By revealing the complexity of earthly life on all scales, ecology again legitimizes the question of the magic of the world."
 	
-Wildproject, *Thoughts of Ecology* (2021)</p>
+	Wildproject, *Thoughts of Ecology* (2021)
 
-</SimpleCard>
+---
 
 There are natural phenomenon that we simply can't explain (yet?). 
 

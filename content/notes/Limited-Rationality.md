@@ -9,6 +9,8 @@ topics: ['Anthropology']
 growthStage: 'Seedling'
 ---
 
+<Draft />
+
 # Being rationale in your own bubble of perception
 
 ### Societies are build upon common myths

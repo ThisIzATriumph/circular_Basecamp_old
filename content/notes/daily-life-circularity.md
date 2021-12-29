@@ -8,6 +8,7 @@ type: ['note']
 topics: ['Education', 'Illustrated Notes', 'Circular Economy']
 growthStage: 'Budding'
 ---
+<Draft />
 
 ### Circular Economy everywhere 
 

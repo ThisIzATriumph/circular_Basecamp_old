@@ -9,11 +9,13 @@ topics: ['Definition']
 growthStage: 'Budding'
 ---
 
-### Sustaining the system of us 
+<Draft />
+
+## Sustaining the system of us 
 
 Sustainability is about sustaining “something” over time.  
 
-##### The 2 dimensions of the sustainable practice
+### The 2 dimensions of the sustainable practice
 
 This implies that “something” has a certain value in the eyes of Today’s observer. This value should be preserved (sustained) over time and brought to future generations unaltered. Therefore, we can derive two main dimensions in the Sustainable practice:  
 
@@ -22,7 +24,7 @@ This implies that “something” has a certain value in the eyes of Today’s o
 -   Teach ourselves and future generations to recognise the value of that “something”. (subjectivity) 
     
 
-##### What are we aiming to sustain exactly?
+### What are we aiming to sustain exactly?
 
 In Sustainability lies the idea of a continuous effort to support and preserve something. However, that something is not static, it evolves based on the support it is given. That something is a complex system.  
 
@@ -32,11 +34,11 @@ A system is considered complex when its dynamics are unpredictable and boundarie
 
 The complex system we wish to sustain is a certain way of living in society which is respectful of our planetary boundaries.  
 
-##### Ever-lasting sustainability 
+### Ever-lasting sustainability 
 
 We don’t achieve Sustainability; we achieve a state of dynamic balance that is sustainable over time. Practicing sustainability is therefore an ever-lasting quest to find an equilibrium (there could be multiple of them) that can last. This takes constant adjustments, and we should learn to be at peace with it. 
 
-##### How to make an impact as an individual 
+### How to make an impact as an individual 
 
 Our time being limited, how to prioritize the actions or activities that will be the most impactful when striving for sustainability? 
 
