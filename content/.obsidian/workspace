@@ -9,8 +9,9 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "tools/9R/index.mdx",
-            "mode": "source"
+            "file": "notes/antifragile-circularity.mdx",
+            "mode": "source",
+            "source": false
           }
         }
       }
@@ -68,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tools/9R/index.mdx",
+                "file": "notes/antifragile-circularity.mdx",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +89,15 @@
   },
   "active": "0e5238b65937030a",
   "lastOpenFiles": [
-    "tools/9R/index.mdx",
-    "tools/9R/thumb@2x.png",
-    "tools/butterfly-model/index.mdx",
-    "tools/value-hill/index.mdx",
-    "tools/butterfly-model/thumb@2x.jpg",
-    "tools/butterfly-model/thumb@2x.png",
-    "illustration/circulargoogle/index.mdx",
-    "illustration/circulargoogle/circulargoogle.png",
+    "notes/antifragile-circularity.mdx",
+    "notes/against-dualism.md",
     "essays/circular-economy-101/index.mdx",
-    "essays/EXECUTION/index.mdx"
+    "notes/building-your-backpack.md",
+    "notes/buen-vivir.md",
+    "notes/becoming-systems-dancers.md",
+    "tools/value-hill/index.mdx",
+    "tools/value-hill/thumb@2x.png",
+    "tools/butterfly-model/thumb@2x.jpg",
+    "tools/butterfly-model/index.mdx"
   ]
 }
