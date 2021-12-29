@@ -30,4 +30,7 @@ By revealing the complexity of earthly life on all scales, ecology again legitim
 Wildproject, *Thoughts of Ecology* (2021)</p>
 
 </SimpleCard>
+
 There are natural phenomenon that we simply can't explain (yet?). 
+
+<ComingSoon />

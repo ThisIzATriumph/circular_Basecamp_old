@@ -7,8 +7,11 @@
         "id": "0e5238b65937030a",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "notes/Archive/00_Ref-for-Editing.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -36,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "everyone",
+                "query": "coming soon",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,6 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "notes/Archive/00_Ref-for-Editing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,15 +88,15 @@
   },
   "active": "0e5238b65937030a",
   "lastOpenFiles": [
-    "notes/vulgarization-visualization.md",
-    "notes/usability-vs-sustainability.md",
-    "notes/the-mapmaker.md",
-    "notes/sustainability.md",
-    "notes/stories.md",
-    "notes/Archive/societies-founding-myths-and-the-circular-economy.md",
-    "notes/resilience.md",
-    "notes/mesology.md",
-    "notes/limited-rationality.md",
-    "notes/grammaire-fauve.md"
+    "notes/Archive/00_Ref-for-Editing.md",
+    "notes/Archive/Maggie's/wtf-rust.mdx",
+    "notes/Archive/Maggie's/websecurity.mdx",
+    "notes/Archive/Maggie's/transcopyright-dreams.mdx",
+    "notes/Archive/Maggie's/tracking-humanity.mdx",
+    "notes/Archive/Maggie's/visual-aws.mdx",
+    "notes/Archive/building-your-backpack.md",
+    "notes/against-dualism.md",
+    "notes/complexity.md",
+    "notes/buen-vivir.md"
   ]
 }
