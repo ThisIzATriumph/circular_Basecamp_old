@@ -1,6 +1,6 @@
 ---
-title: 'Building your backpack - DIY learning'
-slug: building-your-backpack
+title: 'DIY learning'
+slug: DIY-learning
 startupdated: 2021-04-26
 updated: 2021-05-11
 published: true

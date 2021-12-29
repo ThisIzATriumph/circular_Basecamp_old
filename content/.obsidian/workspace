@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "notes/antifragile-circularity.mdx",
+            "file": "notes/deep-ecology.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/antifragile-circularity.mdx",
+                "file": "notes/deep-ecology.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "0e5238b65937030a",
   "lastOpenFiles": [
-    "notes/antifragile-circularity.mdx",
-    "notes/against-dualism.md",
-    "essays/circular-economy-101/index.mdx",
-    "notes/building-your-backpack.md",
-    "notes/buen-vivir.md",
+    "notes/deep-ecology.md",
+    "notes/daily-life-circularity.md",
+    "notes/crowdlearning-the-circular-economy.md",
+    "notes/Archive/craftsman-explorer.md",
+    "notes/complexity.md",
+    "notes/Archive/coach-teacher-mentor 1.md",
     "notes/becoming-systems-dancers.md",
-    "tools/value-hill/index.mdx",
-    "tools/value-hill/thumb@2x.png",
-    "tools/butterfly-model/thumb@2x.jpg",
-    "tools/butterfly-model/index.mdx"
+    "notes/DIY-learning.md",
+    "notes/buen-vivir.md",
+    "notes/antifragile-circularity.mdx"
   ]
 }

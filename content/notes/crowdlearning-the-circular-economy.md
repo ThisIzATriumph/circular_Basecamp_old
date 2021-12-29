@@ -17,7 +17,7 @@ This website is an attempt to share personal views about the Circular Economy th
 
 https://www.erudit.org/fr/revues/irrodl/2014-v15-n4-irrodl04942/1065502ar/
 
-1. Where does crowdteaching come from
-2. Why Crowdteaching make sense in a Circular Economy 
+1. Where does crowdlearning come from
+2. Why crowdlearning make sense in a Circular Economy 
 	1. The complexity of developing circular systems 
 	2. Circular systems must be inclusive to work
