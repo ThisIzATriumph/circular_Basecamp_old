@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "essays/VISION/index.mdx",
+            "file": "notes/against-dualism.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "essays/VISION/index.mdx",
+                "file": "notes/against-dualism.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,10 +88,10 @@
   },
   "active": "0e5238b65937030a",
   "lastOpenFiles": [
+    "notes/against-dualism.md",
     "essays/VISION/index.mdx",
     "essays/SYSTEM DESIGN/index.mdx",
     "essays/EXECUTION/index.mdx",
-    "notes/against-dualism.md",
     "notes/Archive/00_Ref-for-Editing.md",
     "essays/antifragile-circularity/index.mdx",
     "essays/circular-economy-101/index.mdx",

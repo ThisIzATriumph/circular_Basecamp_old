@@ -44,5 +44,3 @@ growthStage: 'Budding'
 "The power of social ecology lies in the association it establishes between society and ecology, in understanding that the social is, potentially at least, a fulfillment of the latent dimension of freedom in nature, and that the ecological is a major organizing principle of social development. In short, social ecology advances the guidelines for an ecological society. The great divorce between nature and society - between the "biological" and the "cultural" - is overcome by shared developmental concepts such as greater diversity in evolution; the wider and more complete participation of all components in a whole; and the ever more fecund potentialities that expand the horizon of freedom and reflexivity. Society, like mind, ceases to be "sui generis". Like mind, with its natural history, social life emerges from the loosely banded animal community to form the highly institutionalized human community."
 
 </ResearchItem>
-
-- Sustainability's triple bottom line: Society, Ecology, Economy starts with the people. A sustainable transition will be social or won't be. 
