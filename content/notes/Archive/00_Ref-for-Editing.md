@@ -5,7 +5,8 @@ startupdated: 2021-04-26
 updated: 2021-05-11
 published: true
 type: ['note']
-topics: ['Systems', 'Illustrated Notes', 'Circular Economy', 'Personal development']
+topics:
+  ['Systems', 'Illustrated Notes', 'Circular Economy', 'Personal development']
 growthStage: 'Budding'
 ---
 
@@ -21,7 +22,7 @@ The <a href="https://www.rust-lang.org/">Rust programming language</a> keeps win
 
 <Footnote idName={1}>There now exists an iPhone application where you too can track Franklin’s thirteen prescribed virtues over the course of your day.</Footnote>
 
---- 
+---
 
 <TwoCol maxwidth="1200px" alignItems="flex-start">
 
@@ -36,3 +37,5 @@ The <a href="https://www.rust-lang.org/">Rust programming language</a> keeps win
 "Collaboration leads to positive outcomes only when students engage in **knowledge generative interactions** such as **giving explanations**, and engaging in **argumentation, negotiation, conflict resolution or mutual regulation**""
 
 </ResearchItem>
+
+</TwoCol>
