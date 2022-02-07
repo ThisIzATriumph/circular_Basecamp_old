@@ -27,7 +27,7 @@ The <a href="https://www.rust-lang.org/">Rust programming language</a> keeps win
 
 <ResearchItem title="Computer Support For Collaborative Learning: Foundations for a CSCL Community" link="http://www.gerrystahl.net/hci/cscl2002intro.pdf" author="Stahl (2002)">
 
-"Collaborative Learning does not just mean that individual learning is enhanced by participation in small groups; <mark>it means that it is the groups themselves that learn."</mark> Knowledge is a product of the collaboration process: it <b>arises through interaction of different perspectives</b>, heats up in the cauldron of public discourse, is gradually refined through negotiation, and is <b>codified and preserved in cultural or scientific artifacts</b>"
+"Collaborative Learning does not just mean that individual learning is enhanced by participation in small groups; it means that it is the groups themselves that learn." Knowledge is a product of the collaboration process: it <b>arises through interaction of different perspectives</b>, heats up in the cauldron of public discourse, is gradually refined through negotiation, and is <b>codified and preserved in cultural or scientific artifacts</b>"
 
 </ResearchItem>
 
