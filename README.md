@@ -1,4 +1,5 @@
-The repo is based on the work of Maggie Appleton.
+The repo is based on the work of Maggie Appleton. Not being a developper myself, I'm mingling around code & content to shape a small internet corner. 
+For original (cleaner) content, make sure to check Maggie's work: 
 ### [maggieappleton.com](https://maggieappleton.com)
 
 ## Tech Stack
