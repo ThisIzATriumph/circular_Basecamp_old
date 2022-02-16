@@ -39,11 +39,19 @@ export const PaperCard = props => {
             padding-right: 1.6em;
           }
           .details {
-              display: block;
+            display: block;
           }
-            h4 {
-              color: ${theme.colors.lightGrey};
-            }
+          h4 {
+            color: ${theme.themeName === 'default'
+              ? // This is the icon in light mode when normal
+                theme.colors.black
+              : // This is the icon in dark mode when normal
+                theme.colors.white};
+          }
+          h6 {
+            color: ${theme.themeName === 'default'
+              ? theme.colors.grey
+              : theme.colors.grey};
           }
         `}
       >

@@ -75,6 +75,9 @@ const ToolPage = ({ data: { site, toolsQuery } }) => {
                     h5 {
                       margin-bottom: 0;
                       line-height: 1.3em;
+                      color: ${theme.themeName === 'default'
+                        ? theme.colors.grey
+                        : theme.colors.white};
                     }
                   `}
                 >

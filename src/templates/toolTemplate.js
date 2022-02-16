@@ -54,12 +54,18 @@ export default function Tool({
             justify-content: center;
             margin-bottom: 1em;
             h6 {
+              color: ${theme.themeName === 'default'
+                ? theme.colors.grey
+                : theme.colors.white};
               text-align: center;
               opacity: 0.8;
               font-family: ${fonts.regularSans}, sans-serif;
               font-weight: normal;
               padding-bottom: 12px;
-              border-bottom: 1px solid ${theme.colors.lightGrey};
+              border-bottom: 1px solid
+                ${theme.themeName === 'default'
+                  ? theme.colors.orange
+                  : theme.colors.pink};
             }
           `}
         >

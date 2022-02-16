@@ -21,15 +21,15 @@ const PreviousNext = props => {
           flex-direction: row;
           transition: all 600ms ease-in-out;
           svg {
-            fill: ${theme.colors.lightGrey};
+            fill: ${theme.colors.grey};
             transition: all 600ms ease-in-out;
           }
           &:hover {
             h4 {
-              color: ${theme.colors.lightGrey};
+              color: ${theme.colors.grey};
             }
             svg {
-              fill: ${theme.colors.lightGrey};
+              fill: ${theme.colors.grey};
               transform: scale(1.2);
             }
           }
@@ -39,7 +39,7 @@ const PreviousNext = props => {
           transition: 600ms ease;
           padding: 0 0.6em;
           margin: 0;
-          color: ${theme.colors.lightGrey};
+          color: ${theme.colors.grey};
           max-width: 300px;
           font-size: 90%;
         }

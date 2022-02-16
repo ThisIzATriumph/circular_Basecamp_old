@@ -9,8 +9,8 @@ export const Divider = styled.hr`
   text-align: center;
   width: 240px;
   margin: 4em auto;
-  border: 0px solid ${colors.lightOrange};
-  background-color: ${colors.lightOrange};
+  border: 0px solid ${colors.pink};
+  background-color: ${colors.pink};
 `
 
 export const OrderedList = styled.ol`
@@ -120,7 +120,7 @@ export const Center = styled.p`
   }
 `
 export const Subtext = styled.p`
-  text-align: ${props => props.center ? 'center' : 'left'};
+  text-align: ${props => (props.center ? 'center' : 'left')};
   max-width: 660px;
   min-width: 360px;
   margin: 0;

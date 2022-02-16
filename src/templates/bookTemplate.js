@@ -13,6 +13,7 @@ import config from '../../config/website'
 import PreviousNext from '../components/PreviousNext'
 import { bpMaxSM } from '../lib/breakpoints'
 import DefaultMdxComponentsProvider from '../components/mdx/DefaultProvider'
+import { useTheme } from 'components/Theming'
 
 export default function Book({
   data: { site, mdx },
@@ -23,6 +24,7 @@ export default function Book({
   const title = mdx.frontmatter.title
   const subtitle = mdx.frontmatter.subtitle
   const cover = mdx.frontmatter.cover
+  const theme = useTheme()
 
   return (
     <Layout site={site} frontmatter={mdx.frontmatter}>
@@ -70,8 +72,8 @@ export default function Book({
               transform: none;
               color: ${colors.orange};
               svg {
-              fill: ${colors.orange};
-              transition: all 0.3s;
+                fill: ${colors.orange};
+                transition: all 0.3s;
               }
             }
             :focus {
@@ -145,6 +147,9 @@ export default function Book({
                 margin-top: 0;
                 font-size: 1.3em;
               }
+              h6 {
+                color: ${theme.colors.grey};
+              }
             `}
           >
             <h1>{title}</h1>
@@ -157,15 +162,15 @@ export default function Book({
         <DefaultMdxComponentsProvider>
           <MDXRenderer>{mdx.body}</MDXRenderer>
         </DefaultMdxComponentsProvider>
-     
-      {/* Next and Previous */}
-      <PreviousNext
-        prevSlug={prevPage && prevPage.fields.slug}
-        prevTitle={prevPage && prevPage.fields.title}
-        nextSlug={nextPage && nextPage.fields.slug}
-        nextTitle={nextPage && nextPage.fields.title}
-      />
-       </Container>
+
+        {/* Next and Previous */}
+        <PreviousNext
+          prevSlug={prevPage && prevPage.fields.slug}
+          prevTitle={prevPage && prevPage.fields.title}
+          nextSlug={nextPage && nextPage.fields.slug}
+          nextTitle={nextPage && nextPage.fields.title}
+        />
+      </Container>
       {/* <SubscribeForm /> */}
 
       <Container noVerticalPadding>

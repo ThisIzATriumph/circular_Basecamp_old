@@ -18,11 +18,26 @@ const getGlobalStyles = theme => {
     counter-reset: sidenote-counter;
     padding: 0.4em;
     min-height: 100vh;
-    background-image: linear-gradient(180deg, ${theme.colors.darkGrey} 0%, ${
-    theme.colors.darkGrey
-  } 88%, ${theme.colors.black} 100%);
-    }
+    background-image: 
+      linear-gradient(180deg, 
+        ${
+          theme.themeName === 'default'
+            ? theme.colors.white
+            : theme.colors.darkGrey
+        } 0%, 
+        ${
+          theme.themeName === 'default'
+            ? theme.colors.white
+            : theme.colors.darkGrey
+        } 88%, 
+        ${
+          theme.themeName === 'default'
+            ? theme.colors.lightGrey
+            : theme.colors.black
+        } 100%);}
+
     &::selection {
+      // This is the highlight color
       color: ${theme.colors.white};
       background-color: ${theme.colors.primary};
     }
@@ -38,14 +53,21 @@ const getGlobalStyles = theme => {
     h1,
     h2,
     h3,
-    h4,
+    h4 {
+      color: ${
+        theme.themeName === 'default' ? theme.colors.black : theme.colors.white
+      }
+    },
     h5,
     h6 {
+      color: ${
+        theme.themeName === 'default' ? theme.colors.grey : theme.colors.white
+      }
       a {
         color: ${theme.colors.orange};
         &:hover,
         &:focus {
-          color: ${theme.colors.lightOrange};
+          color: ${theme.colors.pink};
         }
       }
     }
@@ -80,7 +102,7 @@ const getGlobalStyles = theme => {
       font-family: ${fonts.regularItalic};
     }
     mark {
-      background-color: ${lighten(0.15, theme.colors.lightOrange)};
+      background-color: ${lighten(0.15, theme.colors.pink)};
       padding: 1px 8px;
       border-radius: 4px;
     }
@@ -112,15 +134,15 @@ const getGlobalStyles = theme => {
       border-radius: 4px;
       background-color: ${darken(0.04, theme.colors.orange)};
       border: none;
-      color: ${theme.colors.darkGrey};
+      color: ${theme.colors.white};
       font-family: ${fonts.walsheim};
       padding: 8px 16px;
       cursor: pointer;
-      border: 1px solid ${theme.colors.primary};
+      border: 1px solid ${theme.colors.orange};
       transition: all 400ms;
       :hover {
-        background: ${theme.colors.lightOrange};
-        border: 1px solid ${darken(0.05, theme.colors.orange)};
+        background: ${theme.colors.pink};
+        border: 1px solid ${darken(0.05, theme.colors.pink)};
         transform: translateY(-2px) scale(1.01);
         transition: all 400ms;
         box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.08);
@@ -168,7 +190,7 @@ const getGlobalStyles = theme => {
       }
       /* Handle */
       ::-webkit-scrollbar-thumb {
-        background: ${theme.colors.lightestGrey};
+        background: ${theme.colors.lightGrey};
         border-radius: 5px;
       }
     }

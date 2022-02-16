@@ -64,7 +64,7 @@ export default function Tool({ site, tool, referenceBlock }) {
             margin: 0 auto 3em;
             hr {
               margin: 0 0 0.7em 0;
-            background: ${theme.colors.lightestGrey};
+            background: ${theme.colors.lightGrey};
             border: none;
             flex-grow: 50;
         `}

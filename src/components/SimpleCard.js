@@ -1,6 +1,7 @@
 import React from 'react'
 import { css } from '@emotion/core'
 import { useTheme } from './Theming'
+import { rgba, darken } from 'polished'
 
 const SimpleCard = props => {
   const theme = useTheme()
@@ -10,7 +11,13 @@ const SimpleCard = props => {
       css={css({
         position: 'relative',
         gridColumn: '1/4',
-        border: '1px solid rgba(237, 241, 240, 0.1)',
+        // border: '1px solid $(rgba(237, 241, 240, 0.1)',
+        borderWidth: '1px',
+        borderStyle: 'solid',
+        borderColor:
+          theme.themeName === 'default'
+            ? rgba(theme.colors.grey, 0.2)
+            : rgba(theme.colors.white, 0.2),
         transition: props.hover
           ? 'all 0.8s cubic-bezier(0.2, 0.8, 0.2, 1) 0s;'
           : null,
@@ -39,7 +46,7 @@ const SimpleCard = props => {
             transition: 'all 0.8s cubic-bezier(0.2, 0.8, 0.2, 1) 0s;',
           },
           '::before': {
-            backgroundColor: props.hover ? theme.colors.lightOrange : null,
+            backgroundColor: props.hover ? theme.colors.pink : null,
           },
         },
         '::before': {

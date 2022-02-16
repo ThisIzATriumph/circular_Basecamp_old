@@ -14,7 +14,7 @@ const InnerLink = props => {
         lineHeight: '1em',
         transition: 'all 0.6s ease',
         ':hover, :focus': {
-          background: `${theme.colors.lightOrange}`,
+          background: `${theme.colors.pink}`,
           color: 'white',
           padding: '6px',
         },

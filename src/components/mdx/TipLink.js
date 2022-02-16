@@ -106,14 +106,14 @@ const TipLink = ({ noTip, children, href, ...other }) => {
                 transform: translateY(calc(100% - 2px));
                 width: 0px;
                 height: 100%;
-                background: ${theme.colors.lightestGrey};
+                background: ${theme.colors.lightGrey};
                 transition: all 500ms ease-in-out;
               }
               :hover::before,
               :focus::before {
                 width: 99%;
                 transition: all 500ms ease-in-out;
-                background: ${theme.colors.lightOrange};
+                background: ${theme.colors.pink};
               }
             `}
           >

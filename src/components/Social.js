@@ -11,7 +11,9 @@ export const Twitter = ({ url = `${config.twitter}` }) => {
       rel="noopener noreferrer"
       href={url}
       css={css`
-        color: ${theme.colors.text};
+        color: ${theme.themeName === 'default'
+          ? theme.colors.darkGrey
+          : theme.colors.white};
         margin-left: 10px;
         :hover {
           color: ${theme.colors.primary};
@@ -43,7 +45,9 @@ export const Dribbble = ({ url = `${config.dribbble}` }) => {
       rel="noopener noreferrer"
       href={url}
       css={css`
-        color: ${theme.colors.text};
+        color: ${theme.themeName === 'default'
+          ? theme.colors.darkGrey
+          : theme.colors.white};
         margin-left: 10px;
         :hover {
           color: ${theme.colors.primary};
@@ -75,7 +79,9 @@ export const Instagram = ({ url = `${config.instagram}` }) => {
       rel="noopener noreferrer"
       href={url}
       css={css`
-        color: ${theme.colors.text};
+        color: ${theme.themeName === 'default'
+          ? theme.colors.darkGrey
+          : theme.colors.white};
         margin-left: 10px;
         :hover {
           color: ${theme.colors.primary};
@@ -109,7 +115,9 @@ export const GitHub = ({ url = `${config.github}` }) => {
       href={url}
       css={css`
         margin-left: 10px;
-        color: ${theme.colors.text};
+        color: ${theme.themeName === 'default'
+          ? theme.colors.darkGrey
+          : theme.colors.white};
         :hover {
           color: ${theme.colors.primary};
         }

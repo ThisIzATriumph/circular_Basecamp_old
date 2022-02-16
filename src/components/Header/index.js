@@ -7,6 +7,7 @@ import MobileMenu from './MobileMenu'
 import Links from './Links'
 import { fonts } from '../../lib/typography'
 import Container from '../Container'
+import ThemeToggler from './ThemeToggler'
 
 const Header = () => {
   const theme = useTheme()
@@ -45,16 +46,18 @@ const Header = () => {
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="40"
-              height="40"
+              width="50"
+              height="50"
               viewBox="0 0 512 512"
               css={css`
                 margin-top: 0.4em;
-                fill: ${theme.colors.grey};
+                fill: ${theme.themeName === 'default'
+                  ? theme.colors.darkGrey
+                  : theme.colors.white};
                 transition: 550ms;
-                opacity: 30%;
+                opacity: 100%;
                 &:hover {
-                  color: ${theme.colors.lightOrange};
+                  color: ${theme.colors.white};
                   transform: scale(1.05);
                   opacity: 100%;
                 }
@@ -89,6 +92,7 @@ const Header = () => {
                 ${bpMaxSM} {
                   display: none;
                 }
+                margin-right: 16px;
               `}
             >
               <Links />
@@ -96,6 +100,10 @@ const Header = () => {
             <MobileMenu>
               <Links />
             </MobileMenu>
+            <ThemeToggler
+              toggleTheme={theme.toggleTheme}
+              themeName={theme.themeName}
+            />
           </div>
         </nav>
       </Container>

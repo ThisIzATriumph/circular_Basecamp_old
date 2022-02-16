@@ -5,13 +5,14 @@ import Container from 'components/Container'
 import { graphql } from 'gatsby'
 import { bpMaxSM } from '../../lib/breakpoints'
 import { Book } from '../../components/Book'
-import {PaperCard} from '../../components/PaperCard'
+import { PaperCard } from '../../components/PaperCard'
 import { Link } from 'gatsby'
 import { Tabs, Tab, TabContent } from '../../components/Tabs'
+import { useTheme } from '../../components/Theming'
 
 const LibraryPage = ({ data: { site, bookQuery, paperQuery, talkQuery } }) => {
-
   const [activeTab, setActiveTab] = useState(0)
+  const theme = useTheme()
 
   const handleTabSwitch = e => {
     const index = parseInt(e.target.id, 0)
@@ -35,7 +36,7 @@ const LibraryPage = ({ data: { site, bookQuery, paperQuery, talkQuery } }) => {
             text-align: center;
           }
           .header-text {
-              line-height: 1.5em;
+            line-height: 1.5em;
           }
           .books {
             display: flex;
@@ -65,69 +66,89 @@ const LibraryPage = ({ data: { site, bookQuery, paperQuery, talkQuery } }) => {
               margin: 3em auto;
             }
           }
-
         `}
       >
         <h1>The Library</h1>
-        <p class="header-text">Books, papers, and talks I think are worth paying attention to.<br />Accompanied by loose and opinionated notes.</p><p>To see things I haven't read browse the <Link to='/antilibrary'>Anti Library</Link></p>
+        <p class="header-text">
+          Books, papers, and talks I think are worth paying attention to.
+          <br />
+          Accompanied by loose and opinionated notes.
+        </p>
+        <p>
+          To see things I haven't read browse the{' '}
+          <Link to="/antilibrary">Anti Library</Link>
+        </p>
 
-            <Tabs>
+        <Tabs
+        // Trying to apply CSS on a higher level
+        //   css={{
+        //     color:
+        //       theme.themeName === 'default'
+        //         ? // This is the icon in light mode when normal
+        //           theme.colors.grey
+        //         : // This is the icon in dark mode when normal
+        //           theme.colors.grey,
+        //     // This is the background when not hovered
+        //   }}
+        >
+          <Tab onClick={handleTabSwitch} activeTab={activeTab === 0} id={0}>
+            Books
+          </Tab>
 
-              <Tab onClick={handleTabSwitch} activeTab={activeTab === 0} id={0}>Books</Tab>
+          <Tab onClick={handleTabSwitch} activeTab={activeTab === 1} id={1}>
+            Papers
+          </Tab>
 
-              <Tab onClick={handleTabSwitch} activeTab={activeTab === 1} id={1}>Papers</Tab>
-
-              <Tab onClick={handleTabSwitch} activeTab={activeTab === 2} id={2}>Talks</Tab>
-
-            </Tabs>
+          <Tab onClick={handleTabSwitch} activeTab={activeTab === 2} id={2}>
+            Talks
+          </Tab>
+        </Tabs>
 
         {/* ------------ Books Section ------------ */}
-          <TabContent activeTab={activeTab === 0}>
+        <TabContent activeTab={activeTab === 0}>
           <section className="books">
-          {bookQuery.edges.map(({ node: book }) => (
-            <Book
-              redirectTo={book.frontmatter.redirectTo}
-              slug={book.frontmatter.slug}
-              title={book.frontmatter.title}
-              key={book.id}
-              fluidImg={book.frontmatter.cover.childImageSharp.fluid}
-              author={book.frontmatter.author}
-            />
-          ))}
+            {bookQuery.edges.map(({ node: book }) => (
+              <Book
+                redirectTo={book.frontmatter.redirectTo}
+                slug={book.frontmatter.slug}
+                title={book.frontmatter.title}
+                key={book.id}
+                fluidImg={book.frontmatter.cover.childImageSharp.fluid}
+                author={book.frontmatter.author}
+              />
+            ))}
           </section>
-          </TabContent>
+        </TabContent>
 
-          {/* Papers Section */}
-          <TabContent activeTab={activeTab === 1}>
+        {/* Papers Section */}
+        <TabContent activeTab={activeTab === 1}>
           <section className="papers">
-          {paperQuery.edges.map(({ node: paper }) => (
-            <PaperCard
-              redirectTo={paper.frontmatter.redirectTo}
-              slug={paper.frontmatter.slug}
-              title={paper.frontmatter.title}
-              key={paper.id}
-              author={paper.frontmatter.author}
-            />
-          ))}
+            {paperQuery.edges.map(({ node: paper }) => (
+              <PaperCard
+                redirectTo={paper.frontmatter.redirectTo}
+                slug={paper.frontmatter.slug}
+                title={paper.frontmatter.title}
+                key={paper.id}
+                author={paper.frontmatter.author}
+              />
+            ))}
           </section>
-          </TabContent>
+        </TabContent>
 
-          {/* Talks Section */}
-          <TabContent activeTab={activeTab === 2}>
+        {/* Talks Section */}
+        <TabContent activeTab={activeTab === 2}>
           <section className="books">
-          {talkQuery.edges.map(({ node: talk }) => (
-            <Book
-              redirectTo={talk.frontmatter.redirectTo}
-              slug={talk.frontmatter.slug}
-              title={talk.frontmatter.title}
-              key={talk.id}
-              author={talk.frontmatter.author}
-            />
-          ))}
+            {talkQuery.edges.map(({ node: talk }) => (
+              <Book
+                redirectTo={talk.frontmatter.redirectTo}
+                slug={talk.frontmatter.slug}
+                title={talk.frontmatter.title}
+                key={talk.id}
+                author={talk.frontmatter.author}
+              />
+            ))}
           </section>
-          </TabContent>
-
-
+        </TabContent>
       </Container>
     </Layout>
   )

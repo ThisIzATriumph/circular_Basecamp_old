@@ -30,7 +30,9 @@ const Hero = () => {
       <Container>
         <h1
           css={css`
-            color: ${theme.colors.lightGrey};
+            color: ${theme.themeName === 'default'
+              ? theme.colors.darkGrey
+              : theme.colors.white};
             z-index: 5;
             font-family: ${fonts.walsheimBold};
             font-weight: 100;
@@ -49,7 +51,11 @@ const Hero = () => {
         <h2
           css={css`
             font-family: ${fonts.regular};
-            color: ${theme.colors.lightestGrey};
+            color: ${
+              theme.themeName === 'default'
+                ? theme.colors.grey
+                : theme.colors.white
+            };
             font-weight: 200;
             font-size: ${rhythm(1.3)};
             line-height: ${rhythm(1.7)};
@@ -69,7 +75,9 @@ const Hero = () => {
             font-weight: 300;
             margin-bottom: ${rhythm(1.2)};
             line-height: ${rhythm(1)};
-            color: ${theme.colors.lightestGrey};
+            color: ${theme.themeName === 'default'
+              ? theme.colors.grey
+              : theme.colors.lightGrey};
             letter-spacing: 0em;
             ${bpMaxSM} {
               margin-bottom: ${rhythm(0.4)};
@@ -103,9 +111,9 @@ const SmallSectionLink = props => {
         padding: 8px 0px;
         border-bottom: 1px solid ${theme.colors.orange};
         &:hover {
-          color: ${theme.colors.lightOrange};
+          color: ${theme.colors.pink};
           transform: translateY(2px);
-          border-bottom: 2px solid ${theme.colors.lightOrange};
+          border-bottom: 2px solid ${theme.colors.pink};
         }
       `}
       to={props.to}
@@ -124,6 +132,9 @@ const TitleSectionLink = props => {
         h3 {
           margin-bottom: 1em;
           transition: all 0.6s ease;
+          color: ${theme.themeName === 'default'
+            ? theme.colors.black
+            : theme.colors.lightGrey};
           &:hover {
             color: ${theme.colors.orange};
           }
@@ -287,12 +298,8 @@ export default function Index({
                       align-items: flex-start;
                       justify-content: space-between;
                       h4 {
-                        color: ${theme.colors.lightGrey};
                         margin-top: 0;
                         margin-bottom: 0;
-                        &:hover {
-                          color: ${theme.colors.lightGrey};
-                        }
                       }
                       div.metadata {
                         display: flex;
@@ -317,6 +324,7 @@ export default function Index({
                         }
                       }
                       h6.updated {
+                        color: ${darken(0.05, theme.colors.grey)};
                         font-size: 0.6em;
                         opacity: 80%;
                       }
@@ -404,6 +412,7 @@ export default function Index({
                       }
                     }
                     h6 {
+                      color: ${darken(0.05, theme.colors.grey)};
                       margin-bottom: 0;
                       line-height: 1.3em;
                     }

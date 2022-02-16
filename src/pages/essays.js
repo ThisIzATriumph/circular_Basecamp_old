@@ -38,8 +38,8 @@ const EssaysPage = ({ data: { site, essaysQuery } }) => {
         <section className="header">
           <h1>Viewpoints</h1>
           <p>
-            Takes on the Circularity practice in essay format, almost always
-            illustrated.
+            Takes at heights on the Circular Design practice in essay format,
+            almost always illustrated.
           </p>
         </section>
 
@@ -75,6 +75,9 @@ const EssaysPage = ({ data: { site, essaysQuery } }) => {
                     h5 {
                       margin-bottom: 0;
                       line-height: 1.3em;
+                      color: ${theme.themeName === 'default'
+                        ? theme.colors.grey
+                        : theme.colors.white};
                     }
                   `}
                 >

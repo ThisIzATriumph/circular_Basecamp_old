@@ -21,6 +21,16 @@ export const Book = props => {
           margin: 0.2em 1em;
           margin-bottom: 2em;
           width: 240px;
+          h4 {
+            color: ${theme.themeName === 'default'
+              ? theme.colors.black
+              : theme.colors.white};
+          }
+          h6 {
+            color: ${theme.themeName === 'default'
+              ? theme.colors.grey
+              : theme.colors.grey};
+          }
           .gatsby-image-wrapper {
             border-radius: 4px;
             transition: all 500ms ease;
@@ -42,7 +52,11 @@ export const Book = props => {
               box-shadow: 0px 7px 13px -7px rgba(115, 130, 140, 0.98);
             }
             h4 {
-              color: ${theme.colors.lightGrey};
+              color: ${theme.themeName === 'default'
+                ? // This is the icon in light mode
+                  theme.colors.orange
+                : // This is the icon in dark mode
+                  theme.colors.orange};
             }
           }
         `}

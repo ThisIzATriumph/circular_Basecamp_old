@@ -15,7 +15,7 @@ export const ReferenceItem = ({ pageTitle, pageLink, excerpt }) => {
           fontSize: '75%',
           opacity: '80%',
           margin: '0.4em',
-          border: `1px solid ${theme.colors.lightestGrey}`,
+          border: `1px solid ${theme.colors.lightGrey}`,
           borderRadius: '6px',
           boxShadow: '0px 1px 2px rgba(52, 61, 68, 0.1)',
           background: 'white',
@@ -29,7 +29,7 @@ export const ReferenceItem = ({ pageTitle, pageLink, excerpt }) => {
             fontFamily: fonts.walsheimLight,
             letterSpacing: '0',
             fontSize: '1.1em',
-            color: theme.colors.lightOrange,
+            color: theme.colors.pink,
           },
           p: {
             lineHeight: '1.3em',
@@ -50,7 +50,7 @@ export const ReferenceBlock = ({ references }) => {
     <>
       <div
         css={css({
-          borderTop: `1px solid ${theme.colors.lightestGrey}`,
+          borderTop: `1px solid ${theme.colors.lightGrey}`,
           paddingTop: '3em',
           margin: '4em auto 3em',
           maxWidth: '880px',
