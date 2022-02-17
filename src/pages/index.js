@@ -53,7 +53,7 @@ const Hero = () => {
             font-family: ${fonts.regular};
             color: ${
               theme.themeName === 'default'
-                ? theme.colors.grey
+                ? theme.colors.black
                 : theme.colors.white
             };
             font-weight: 200;
