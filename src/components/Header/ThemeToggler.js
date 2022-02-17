@@ -1,5 +1,5 @@
 import React from 'react'
-import Button from './Button'
+import Button from '../../components/Header/Button'
 import styled from '@emotion/styled'
 import { FiMoon, FiSun } from 'react-icons/fi'
 import { useTheme } from '../Theming'
